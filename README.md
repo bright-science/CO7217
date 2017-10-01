@@ -1,2 +1,32 @@
 # CO7X17-17-18
+
 Repository with learning resources for Agile Cloud Automation (CO7217 and CO7517)
+
+## Study guide and schedule
+
+Please access the information on Blackboard.
+
+## Exercises and assessed coursework
+
+Outline of assessed coursework:
+
+| assessed component | type | marks | weight | deadline |
+|--|--|--|--|--|
+| miniproject 1 | | 100 | 30% | 27/10/2017 |
+| | programming | 60 | | |
+| | essay/open problem which may involve the application of modelling techniques | 40 | | | 
+| test (multiple choice questions, true/false questions) | | 100 | 40% | 23/11/2017 |
+| miniproject 2 | | 100 | 30% | 14/12/2017 |
+| | programming | 60 | | |
+| | essay/open problem which may involve the application of modelling techniques | 40 | | | 
+
+Worksheets for formative and assessed coursework:
+
+* [Part I: Agile practices and NoSQL]()
+* [Part II: Cloud Automation using Model-Driven Engineering]()
+
+## Tooling and GiHub setup
+
+* [Tooling](./tooling.md)
+
+
