@@ -22,8 +22,8 @@ Outline of assessed coursework:
 
 Worksheets for formative and assessed coursework:
 
-* [Part I: Agile practices and NoSQL]()
-* [Part II: Cloud Automation using Model-Driven Engineering]()
+* [Part I: Agile practices and NoSQL](https://github.com/uol-inf/CO7X17-17-18/tree/master/partI)
+* [Part II: Cloud Automation using Model-Driven Engineering](https://github.com/uol-inf/CO7X17-17-18/tree/master/partII)
 
 ## Tooling and GiHub setup
 
