@@ -12,7 +12,7 @@ Find below:
 
 ## Installation guide
 
-A screencast describing how to install the STS, Groovy and Gradle is available :movie_camera: [here](https://campus.cs.le.ac.uk/teaching/resources/CO2006/installation-sts-groovy-gradle.mp4).
+A screencast describing how to install the STS, Groovy and Gradle is available :movie_camera: [here](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e319d6ac-c47d-4197-ac82-3850b313b8b7).
 
 Further considerations on the tools that we are going to use in CO7X17 are described below.
 
@@ -68,9 +68,10 @@ This repository is intended to be used in **READ-ONLY MODE**. That is, do not wr
 
 ### Your individual repository CO7X17-17-18-${YourGitHubUsername}
 
-GitHub is used to submit assessed coursework. Please accept the corresponding invitation below, which will create your individual private repository on GitHub, and clone it in the STS as explained :movie_camera: [in this video](https://campus.cs.le.ac.uk/teaching/resources/CO2006/github-setup.mp4). The video also explains how to import the exercises for sprint 1.
+GitHub is used to submit assessed coursework. Please accept the corresponding invitation below, which will create your individual private repository on GitHub, and clone it in the STS as explained :movie_camera: [in this video](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc275383-e28f-426e-b5cd-6a60dcc6609d). The video also explains how to import the exercises for sprint 1.
 * [Invitation for CO7217](https://classroom.github.com/a/b47fCaTn) (campus students)
 * [Invitation for CO7517](https://classroom.github.com/a/0PR7AvFz) (DL students)
 
 This repository is intended to be used in **READ-WRITE MODE**. That is, this is your private repository and you have control over its contents. This repository can be used to keep backup copies of your work and to submit your coursework.
 
+:movie_camera: [This video](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fcc8ee35-cee8-4b83-9c02-38de6bacd81b) illustrates how to transfer files from the master repository to your private repository.
