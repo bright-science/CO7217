@@ -29,7 +29,7 @@ In this unit, we are going to cover the basics of Groovy's syntax so as to be ab
 
 ### Exercises
 
-For doing formative and assessed coursework, set up your own private [as explained in the tooling section](https://github.com/uol-inf/CO7X18-17-18/blob/master/tooling.md#setting-up-your-github-repository). Once you private repository is set up, do the following exercise:
+For doing formative and assessed coursework, set up your own private [as explained in the tooling section](https://github.com/uol-inf/CO7X17-17-18/blob/master/tooling.md#setting-up-your-github-repository). Once you private repository is set up, do the following exercise:
 
 * :computer: [Exercises with Groovy](https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Groovy_exercises/readme.md)
 
