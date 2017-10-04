@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partI/.mu1.md.html</title>
+<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/.tooling.md.html</title>
 
 
 <style type="text/css">
@@ -639,114 +639,90 @@ function setDocumentScrollTop(ypos)
 
 </head>
 <body class="markdown-body">
-<h1> <a id="module-unit-1-agile-practices-with-groovy-and-gradle" class="anchor" href="#module-unit-1-agile-practices-with-groovy-and-gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module Unit 1: Agile Practices with Groovy and Gradle</h1> 
-<p>Welcome to the module. In this first unit, we are going to cover the main principles behind agile software development methodologies. Namely, we will use Gradle for automating software builds, providing a stepping stone for achieving <a href="http://martinfowler.com/bliki/ContinuousDelivery.html">continuous delivery</a>. In the rest of the module we will use Gradle for automating software development tasks.</p> 
-<p>The module unit for this week is structured as follows:</p> 
+<h1> <a id="ide-and-tooling" class="anchor" href="#ide-and-tooling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IDE and Tooling</h1> 
+<p>The tools that need to be installed in your machine in order to do the exercises for CO7X17 17-18 are:</p> 
 <ul> 
- <li>We will learn <a href="#groovy">Groovy</a>, a scripting language used to program Gradle build scripts.</li> 
- <li>We will learn how to program <a href="#automating-builds-with-gradle">Gradle</a> build scripts using Groovy for Java projects.</li> 
+ <li>Java 8</li> 
+ <li>The Spring Tool Suite (STS) 3.9.0</li> 
+ <li>Groovy</li> 
+ <li>Gradle Buildship</li> 
 </ul> 
-<p>At the end of this page you will find a jargon buster on terms that may be new to you.</p> 
-<h2> <a id="lecture" class="anchor" href="#lecture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lecture</h2> 
-<p>Unfortunately, there has been a technical problem with the recording of the lecture and the link below refers to the lecture recorded in the previous year.</p> 
-<p>
+<p>Find below:</p> 
+<ul> 
+ <li><a href="#installation-guide">An installation guide of the tools required.</a></li> 
+ <li><a href="#setting-up-your-github-repository">Instructions to set up your workspace for CO7X17 17-18.</a></li> 
+</ul> 
+<h2> <a id="installation-guide" class="anchor" href="#installation-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation guide</h2> 
+<p>A screencast describing how to install the STS, Groovy and Gradle is available 
  <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
   🎥
- </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab1db355-12b8-4621-abc2-1c073347dc0a">Lecture. Agile Practices with Groovy and Gradle</a></p> 
-<h2> <a id="groovy" class="anchor" href="#groovy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Groovy</h2> 
-<p>In this unit, we are going to cover the basics of Groovy's syntax so as to be able to read and write Gradle build scripts. We are going to focus on:</p> 
+ </g-emoji> <a href="https://campus.cs.le.ac.uk/teaching/resources/CO2006/installation-sts-groovy-gradle.mp4">here</a>.</p> 
+<p>Further considerations on the tools that we are going to use in CO7X17 are described below.</p> 
+<h3> <a id="java-8" class="anchor" href="#java-8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java 8</h3> 
 <ul> 
- <li>What is Groovy? What are its main features?</li> 
- <li>How to write and run Groovy scripts?</li> 
- <li>Working with collections and ranges</li> 
- <li>Writing and using functions</li> 
- <li>Writing and using closures</li> 
- <li>Differences between functions and closures</li> 
- <li>Dynamic capabilities</li> 
+ <li>Download Java 8 from <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Oracle's website</a>.</li> 
+ <li>Install it.</li> 
 </ul> 
-<h3> <a id="exercises" class="anchor" href="#exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h3> 
-<p>For doing formative and assessed coursework, set up your own private <a href="https://github.com/uol-inf/CO7X18-17-18/blob/master/tooling.md#setting-up-your-github-repository">as explained in the tooling section</a>. Once you private repository is set up, do the following exercise:</p> 
+<h3> <a id="spring-tool-suite-sts" class="anchor" href="#spring-tool-suite-sts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spring Tool Suite (STS)</h3> 
 <ul> 
- <li> 
-  <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
-   💻
-  </g-emoji> <a href="https://github.com/uol-inf/CO7X17-16-17/blob/master/MU1_Gradle/Groovy_exercises/readme.md">Exercises with Groovy</a> </li> 
+ <li>Download the Spring Tool Suite (STS) 3.9.0 available from <a href="https://spring.io/tools">the Spring website</a>.</li> 
+ <li>Unzip and move to: 
+  <ul> 
+   <li>Mac OS: <code>Applications</code> 
+    <ul> 
+     <li>In some cases, you may not be able to install Groovy plugins, with the error being that you don't have write permissions on the installation folder. If you drag and drop the STS file to the <code>Applications</code> folder, you may be able to install the plugins.</li> 
+    </ul> </li> 
+   <li>Windows: <code>Program Files</code> 
+    <ul> 
+     <li>Use 7-zip (<a href="http://www.7-zip.org">http://www.7-zip.org</a>) to unzip the zipped file that you get when you download the STS.</li> 
+     <li>Some students could not install the STS under the folder <code>Program Files</code>. If that is your case, try to install the STS in another folder, e.g. in <code>My Documents</code>.</li> 
+    </ul> </li> 
+   <li>Linux: your folder of choice</li> 
+  </ul> </li> 
 </ul> 
-<p>Solutions to exercises will be posted under this folder on GitHub as projects with the name <code>${ExerciseName}_solution</code>.</p> 
-<h2> <a id="automating-builds-with-gradle" class="anchor" href="#automating-builds-with-gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Automating builds with Gradle</h2> 
-<p>In this unit, we are going to focus on automating software builds with Gradle based on what we have learnt about software development methodologies and Groovy:</p> 
+<h3> <a id="groovy" class="anchor" href="#groovy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Groovy</h3> 
 <ul> 
- <li>What is Gradle? 
+ <li>From within STS (launch it first).</li> 
+ <li> <code>Help &gt; Dashboard</code> (from Spring perspective).</li> 
+ <li> <code>Manage &gt; IDE extensions</code>.</li> 
+ <li>Select: 
   <ul> 
-   <li>What is the Gradle wrapper?</li> 
+   <li> <code>Groovy 2.4 compiler for Groovy-Eclipse</code>;</li> 
+   <li> <code>Groovy-Eclipse</code>;</li> 
+   <li> <code>Groovy-integration with m2clipse</code> .</li> 
   </ul> </li> 
- <li>What is a Gradle task? 
-  <ul> 
-   <li>Writing and running tasks.</li> 
-   <li>Specifying task dependencies.</li> 
-  </ul> </li> 
- <li>What is a typed task? 
-  <ul> 
-   <li>Using the copy task.</li> 
-  </ul> </li> 
- <li>How to use Gradle to build a Java project? 
-  <ul> 
-   <li>What is a Gradle plugin?</li> 
-   <li>Tasks offered by the Java plugin</li> 
-   <li>What is the Gradle daemon</li> 
-  </ul> </li> 
- <li>How does Gradle handle library dependencies? 
-  <ul> 
-   <li>What is a repository?</li> 
-   <li>Using repositories of libraries</li> 
-  </ul> </li> 
- <li>How do you run Java tests from Gradle?</li> 
+ <li>Click <code>Install</code> and follow the instructions.</li> 
 </ul> 
-<h3> <a id="releasing-with-gradle" class="anchor" href="#releasing-with-gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Releasing with Gradle</h3> 
-<p><a href="https://youtu.be/f-9hzWy21jo"><img src="https://camo.githubusercontent.com/2e9a6ad75473d7f05ee2b85d089420d81b22b09c/687474703a2f2f696d672e796f75747562652e636f6d2f76692f662d39687a577932316a6f2f302e6a7067" alt="ScreenShot" data-canonical-src="http://img.youtube.com/vi/f-9hzWy21jo/0.jpg" style="max-width:100%;" /></a></p> 
-<h3> <a id="exercises-1" class="anchor" href="#exercises-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h3> 
+<h3> <a id="gradle" class="anchor" href="#gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gradle</h3> 
 <ul> 
- <li> 
-  <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
-   💻
-  </g-emoji> <a href="https://github.com/uol-inf/CO7X17-16-17/blob/master/MU1_Gradle/Gradle_ex01/readme.md">Exercise 1</a> (<strong>Gradle tasks and dependencies</strong>)</li> 
- <li> 
-  <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
-   💻
-  </g-emoji> <a href="https://github.com/uol-inf/CO7X17-16-17/blob/master/MU1_Gradle/Gradle_ex02/readme.md">Exercise 2</a> (<strong>Java builds and Java libraries</strong>)</li> 
+ <li>From within STS (launch it first).</li> 
+ <li> <code>Help &gt; Eclipse Marketplace</code>.</li> 
+ <li>Search for <code>Buildship Gradle Integration 2.0</code>.</li> 
+ <li>Install it and follow the instructions.</li> 
 </ul> 
-<p>Solutions to exercises will be posted under this folder on GitHub as projects with the name <code>${ExerciseName}_solution</code>.</p> 
-<h2> <a id="jargon-buster-" class="anchor" href="#jargon-buster-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jargon buster <a name="user-content-jargon"></a> </h2> 
-<table> 
- <thead> 
-  <tr> 
-   <th>term</th> 
-   <th>definition</th> 
-   <th>source</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>software development methodology</td> 
-   <td>A methodology specifies the process to be executed, usually as a set of related activities, tasks and/or techniques, together with the work products that must be manipulated (created, used or changed) at each moment and by whom, possibly including models, documents and other inputs and outputs. In turn, specifying the models that must be dealt with implies defining the basic building blocks that should be used to construct.</td> 
-   <td><a href="https://en.wikipedia.org/wiki/Software_development_process">wikipedia</a></td> 
-  </tr> 
-  <tr> 
-   <td>sprint</td> 
-   <td>A sprint (or iteration) is the basic unit of development in Scrum. The Sprint is a timeboxed effort; that is, it is restricted to a specific duration. The duration is fixed in advance for each Sprint and is normally between one week and one month, with two weeks being the most common.</td> 
-   <td><a href="https://en.wikipedia.org/wiki/Scrum_(software_development)#Workflow">wikipedia</a></td> 
-  </tr> 
-  <tr> 
-   <td>sprint backlog</td> 
-   <td>The sprint backlog is a list of tasks to be completed during the sprint.</td> 
-   <td><a href="https://www.mountaingoatsoftware.com/agile/scrum/sprint-backlog">mountaingoatsoftware</a></td> 
-  </tr> 
-  <tr> 
-   <td>software build</td> 
-   <td>Process of automating the creation of a software build and the associated processes including: compiling computer source code into binary code, packaging binary code, and running automated tests.</td> 
-   <td><a href="https://en.wikipedia.org/wiki/Build_automation">wikipedia</a></td> 
-  </tr> 
- </tbody> 
-</table>
+<h2> <a id="setting-up-your-github-repository" class="anchor" href="#setting-up-your-github-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting up your GitHub repository</h2> 
+<p>We are going to use two repositories on GitHub, the main one <code>CO7X17-17-18</code>, which is going to be used to release new resources, and your own private repository <code>CO7X17-17-18-${YourGitHubUsername}</code>, which is going to be used to do coursework.</p> 
+<h3> <a id="main-repository-co7x17-17-18" class="anchor" href="#main-repository-co7x17-17-18" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Main repository CO7X17-17-18</h3> 
+<p>Follow these steps:</p> 
+<ul> 
+ <li> <p>Create an account on GitHub if you don't have one already.</p> </li> 
+ <li> <p>Fill in the corresponding Google form below and provide your GitHub username (you may need to log in with your Google credentials):</p> 
+  <ul> 
+   <li>Google form for <a href="https://goo.gl/forms/QQ7yoen3AgRQkfyV2">CO7217</a> (campus students)</li> 
+   <li>Google form for <a href="https://goo.gl/forms/zNg7fDsB65wyAwbg2">CO7517</a> (DL students)</li> 
+  </ul> </li> 
+ <li> <p>You will get access to the resources during the week starting on <code>2nd October 2017</code>.</p> </li> 
+</ul> 
+<p>This repository is intended to be used in <strong>READ-ONLY MODE</strong>. That is, do not write or modify any file or folder in your local copy of the repository. If you do it accidentally, please delete the whole local copy of the repository and clone it again.</p> 
+<h3> <a id="your-individual-repository-co7x17-17-18-yourgithubusername" class="anchor" href="#your-individual-repository-co7x17-17-18-yourgithubusername" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Your individual repository CO7X17-17-18-${YourGitHubUsername}</h3> 
+<p>GitHub is used to submit assessed coursework. Please accept the corresponding invitation below, which will create your individual private repository on GitHub, and clone it in the STS as explained 
+ <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
+  🎥
+ </g-emoji> <a href="https://campus.cs.le.ac.uk/teaching/resources/CO2006/github-setup.mp4">in this video</a>. The video also explains how to import the exercises for sprint 1.</p> 
+<ul> 
+ <li> <a href="https://classroom.github.com/a/b47fCaTn">Invitation for CO7217</a> (campus students)</li> 
+ <li> <a href="https://classroom.github.com/a/0PR7AvFz">Invitation for CO7517</a> (DL students)</li> 
+</ul> 
+<p>This repository is intended to be used in <strong>READ-WRITE MODE</strong>. That is, this is your private repository and you have control over its contents. This repository can be used to keep backup copies of your work and to submit your coursework.</p>
 </body>
 </html>
