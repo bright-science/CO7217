@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partI/.mu1.md.html</title>
+<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partI/Gradle_ex01/.readme.md.html</title>
 
 
 <style type="text/css">
@@ -639,114 +639,65 @@ function setDocumentScrollTop(ypos)
 
 </head>
 <body class="markdown-body">
-<h1> <a id="module-unit-1-agile-practices-with-groovy-and-gradle" class="anchor" href="#module-unit-1-agile-practices-with-groovy-and-gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module Unit 1: Agile Practices with Groovy and Gradle</h1> 
-<p>Welcome to the module. In this first unit, we are going to cover the main principles behind agile software development methodologies. Namely, we will use Gradle for automating software builds, providing a stepping stone for achieving <a href="http://martinfowler.com/bliki/ContinuousDelivery.html">continuous delivery</a>. In the rest of the module we will use Gradle for automating software development tasks.</p> 
-<p>The module unit for this week is structured as follows:</p> 
+<h1> <a id="gradle-exercise-1" class="anchor" href="#gradle-exercise-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gradle: exercise 1</h1> 
+<h2> <a id="tutorial" class="anchor" href="#tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutorial</h2> 
+<h3> <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h3> 
 <ul> 
- <li>We will learn <a href="#groovy">Groovy</a>, a scripting language used to program Gradle build scripts.</li> 
- <li>We will learn how to program <a href="#automating-builds-with-gradle">Gradle</a> build scripts using Groovy for Java projects.</li> 
-</ul> 
-<p>At the end of this page you will find a jargon buster on terms that may be new to you.</p> 
-<h2> <a id="lecture" class="anchor" href="#lecture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lecture</h2> 
-<p>Unfortunately, there has been a technical problem with the recording of the lecture and the link below refers to the lecture recorded in the previous year.</p> 
-<p>
- <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
-  🎥
- </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab1db355-12b8-4621-abc2-1c073347dc0a">Lecture. Agile Practices with Groovy and Gradle</a></p> 
-<h2> <a id="groovy" class="anchor" href="#groovy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Groovy</h2> 
-<p>In this unit, we are going to cover the basics of Groovy's syntax so as to be able to read and write Gradle build scripts. We are going to focus on:</p> 
-<ul> 
- <li>What is Groovy? What are its main features?</li> 
- <li>How to write and run Groovy scripts?</li> 
- <li>Working with collections and ranges</li> 
- <li>Writing and using functions</li> 
- <li>Writing and using closures</li> 
- <li>Differences between functions and closures</li> 
- <li>Dynamic capabilities</li> 
-</ul> 
-<h3> <a id="exercises" class="anchor" href="#exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h3> 
-<p>For doing formative and assessed coursework, set up your own private <a href="https://github.com/uol-inf/CO7X18-17-18/blob/master/tooling.md#setting-up-your-github-repository">as explained in the tooling section</a>. Once you private repository is set up, do the following exercise:</p> 
-<ul> 
- <li> 
-  <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
-   💻
-  </g-emoji> <a href="https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Groovy_exercises/readme.md">Exercises with Groovy</a> </li> 
-</ul> 
-<p>Solutions to exercises will be posted under this folder on GitHub as projects with the name <code>${ExerciseName}_solution</code>.</p> 
-<h2> <a id="automating-builds-with-gradle" class="anchor" href="#automating-builds-with-gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Automating builds with Gradle</h2> 
-<p>In this unit, we are going to focus on automating software builds with Gradle based on what we have learnt about software development methodologies and Groovy:</p> 
-<ul> 
- <li>What is Gradle? 
+ <li>Once you have cloned the repository, import the project Gradle_ex01 using the Gradle import facility in your IDE (the order of steps may vary depending on the OS that you are using): 
   <ul> 
-   <li>What is the Gradle wrapper?</li> 
+   <li><code>File &gt; Import...</code></li> 
+   <li><code>Existing Gradle Project</code></li> 
+   <li>Select the project <code>Gradle_ex01</code> in your local GitHub repository, and click <code>Next</code>.</li> 
+   <li>Select <code>Override workspace settings</code> and select <code>Gradle wrapper</code>. Click <code>Next</code>.</li> 
+   <li>No errors should be shown in the message box. Click <code>Finish</code>.</li> 
   </ul> </li> 
- <li>What is a Gradle task? 
-  <ul> 
-   <li>Writing and running tasks.</li> 
-   <li>Specifying task dependencies.</li> 
-  </ul> </li> 
- <li>What is a typed task? 
-  <ul> 
-   <li>Using the copy task.</li> 
-  </ul> </li> 
- <li>How to use Gradle to build a Java project? 
-  <ul> 
-   <li>What is a Gradle plugin?</li> 
-   <li>Tasks offered by the Java plugin</li> 
-   <li>What is the Gradle daemon</li> 
-  </ul> </li> 
- <li>How does Gradle handle library dependencies? 
-  <ul> 
-   <li>What is a repository?</li> 
-   <li>Using repositories of libraries</li> 
-  </ul> </li> 
- <li>How do you run Java tests from Gradle?</li> 
+ <li>Solve the exercises in the file <code>build.gradle</code>.</li> 
 </ul> 
-<h3> <a id="releasing-with-gradle" class="anchor" href="#releasing-with-gradle" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Releasing with Gradle</h3> 
-<p><a href="https://youtu.be/f-9hzWy21jo"><img src="https://camo.githubusercontent.com/2e9a6ad75473d7f05ee2b85d089420d81b22b09c/687474703a2f2f696d672e796f75747562652e636f6d2f76692f662d39687a577932316a6f2f302e6a7067" alt="ScreenShot" data-canonical-src="http://img.youtube.com/vi/f-9hzWy21jo/0.jpg" style="max-width:100%;" /></a></p> 
-<h3> <a id="exercises-1" class="anchor" href="#exercises-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h3> 
-<ul> 
- <li> 
-  <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
-   💻
-  </g-emoji> <a href="https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Gradle_ex01/readme.md">Exercise 1</a> (<strong>Gradle tasks and dependencies</strong>)</li> 
- <li> 
-  <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
-   💻
-  </g-emoji> <a href="https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Gradle_ex02/readme.md">Exercise 2</a> (<strong>Java builds and Java libraries</strong>)</li> 
-</ul> 
-<p>Solutions to exercises will be posted under this folder on GitHub as projects with the name <code>${ExerciseName}_solution</code>.</p> 
-<h2> <a id="jargon-buster-" class="anchor" href="#jargon-buster-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jargon buster <a name="user-content-jargon"></a> </h2> 
-<table> 
- <thead> 
-  <tr> 
-   <th>term</th> 
-   <th>definition</th> 
-   <th>source</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>software development methodology</td> 
-   <td>A methodology specifies the process to be executed, usually as a set of related activities, tasks and/or techniques, together with the work products that must be manipulated (created, used or changed) at each moment and by whom, possibly including models, documents and other inputs and outputs. In turn, specifying the models that must be dealt with implies defining the basic building blocks that should be used to construct.</td> 
-   <td><a href="https://en.wikipedia.org/wiki/Software_development_process">wikipedia</a></td> 
-  </tr> 
-  <tr> 
-   <td>sprint</td> 
-   <td>A sprint (or iteration) is the basic unit of development in Scrum. The Sprint is a timeboxed effort; that is, it is restricted to a specific duration. The duration is fixed in advance for each Sprint and is normally between one week and one month, with two weeks being the most common.</td> 
-   <td><a href="https://en.wikipedia.org/wiki/Scrum_(software_development)#Workflow">wikipedia</a></td> 
-  </tr> 
-  <tr> 
-   <td>sprint backlog</td> 
-   <td>The sprint backlog is a list of tasks to be completed during the sprint.</td> 
-   <td><a href="https://www.mountaingoatsoftware.com/agile/scrum/sprint-backlog">mountaingoatsoftware</a></td> 
-  </tr> 
-  <tr> 
-   <td>software build</td> 
-   <td>Process of automating the creation of a software build and the associated processes including: compiling computer source code into binary code, packaging binary code, and running automated tests.</td> 
-   <td><a href="https://en.wikipedia.org/wiki/Build_automation">wikipedia</a></td> 
-  </tr> 
- </tbody> 
-</table>
+<div> 
+ <h3> <a id="exercise-a-star" class="anchor" href="#exercise-a-star" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise A (
+  <g-emoji alias="star" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png" ios-version="6.0">
+   ⭐️
+  </g-emoji>)</h3> 
+ <p>Write a task that prints <code>Hello World!</code> on the output console.</p> 
+ <h3> <a id="exercise-b-star" class="anchor" href="#exercise-b-star" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise B (
+  <g-emoji alias="star" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png" ios-version="6.0">
+   ⭐️
+  </g-emoji>)</h3> 
+ <ul> 
+  <li>Write 6 tasks, each of them should print <code>I'm task number n</code>, where <code>n</code> is to be replaced by the number of the task. For example <code>./gradlew -q task1</code> should print out <code>I'm task number 1</code>.</li> 
+  <li>Define the dependencies that correspond to the following activity diagram, where directed edges correspond to the <code>finalizedBy</code> clause.</li> 
+ </ul> 
+ <a href="web/ad.png" target="_blank"><img src="web/ad.png" style="max-width:100%;" /></a> 
+ <p>The output of using the command <code>./gradlew -q task6</code> should be something similar to:</p> 
+ <pre><code>I'm task number 1
+I'm task number 2
+I'm task number 3
+I'm task number 4
+I'm task number 5
+I'm task number 6
+</code></pre> 
+ <p>Note that this is not the only ordering of tasks that is feasible. For example, it would entirely correct to execute <code>task5</code> before <code>task4</code>.</p> 
+ <h3> <a id="exercise-c-starstar" class="anchor" href="#exercise-c-starstar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise C (
+  <g-emoji alias="star" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png" ios-version="6.0">
+   ⭐️
+  </g-emoji>
+  <g-emoji alias="star" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png" ios-version="6.0">
+   ⭐️
+  </g-emoji>)</h3> 
+ <ul> 
+  <li>Create a gradle task that copies files from folder <code>src/main/resources/source/</code>&nbsp;to <code>src/main/resources/target/</code>.</li> 
+  <li>Copy only those files whose name corresponds to an even number.</li> 
+  <li> <em>Hint</em>: explore <a href="https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Copy.html">the documentation of the Copy task</a> and use your Java/Groovy skills to achieve what you are asked to do</li> 
+ </ul> 
+ <h2> <a id="additional-resources" class="anchor" href="#additional-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Resources</h2> 
+ <ul> 
+  <li> <a href="https://docs.gradle.org/current/userguide/tutorials.html">Getting started</a>: official Gradle tutorial to get started with Gradle.</li> 
+  <li><a href="https://docs.gradle.org/current/userguide/userguide">Gradle's user guide</a></li> 
+  <li><a href="https://docs.gradle.org/current/dsl">Gradle DSL reference</a></li> 
+  <li><a href="http://www.tutorialspoint.com/gradle/">Gradle tutorial - Tutorialspoint</a></li> 
+ </ul> 
+ <hr /> 
+ <p>&copy; Artur Boronat, 2015-17</p> 
+</div>
 </body>
 </html>
