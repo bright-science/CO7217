@@ -74,4 +74,3 @@ GitHub is used to submit assessed coursework. Please accept the corresponding in
 
 This repository is intended to be used in **READ-WRITE MODE**. That is, this is your private repository and you have control over its contents. This repository can be used to keep backup copies of your work and to submit your coursework.
 
-:movie_camera: [This video](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fcc8ee35-cee8-4b83-9c02-38de6bacd81b) illustrates how to transfer files from the master repository to your private repository.
