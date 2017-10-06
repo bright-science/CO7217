@@ -30,7 +30,11 @@ Access the file `src/lab1/exercises.groovy` and implement the exercises:
 * [Repository with exercises to become fluent in Groovy](https://github.com/nadavc/groovykoans): use the gradle commands described in the repository to clean the solutions
 
 ## Additional resources
-* [Groovy documentation](http://groovy-lang.org/documentation.html)
+* [Groovy documentation](http://groovy-lang.org/documentation.html): please browse as required 
+  * [Groovy syntax](http://groovy-lang.org/syntax.html)
+  * [Groovy operators](http://groovy-lang.org/operators.html)
+  * [Groovy closures](http://groovy-lang.org/closures.html)
+  * [Groovy development kit](http://groovy-lang.org/groovy-dev-kit.html)
 * [Groovy cheatsheet](http://geek.starbean.net/?page_id=202)
 * [Groovy web console](https://groovyconsole.appspot.com)
 * [Ten Groovy One Liners to Impress Your Friends](http://www.javaworld.com/article/2074145/core-java/ten-groovy-one-liners-to-impress-your-friends.html)

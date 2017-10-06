@@ -47,7 +47,19 @@ Note that this is not the only ordering of tasks that is feasible. For example, 
 ## Additional Resources
 
 * [Getting started](https://docs.gradle.org/current/userguide/tutorials.html): official Gradle tutorial to get started with Gradle.
-* [Gradle's user guide](https://docs.gradle.org/current/userguide/userguide)
+* [Gradle's user guide](https://docs.gradle.org/current/userguide/userguide.html)
+  * [Overview](https://docs.gradle.org/current/userguide/overview.html): with motivation to use Groovy
+  * [Dependency management basics](https://docs.gradle.org/current/userguide/artifact_dependencies_tutorial.html)
+  * [Gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html)
+  * [Gradle command line](https://docs.gradle.org/current/userguide/gradle_command_line.html)
+  * [Examples of Gradle build scripts](https://docs.gradle.org/current/userguide/sample_list.html)
+  * [Building scripts basics](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
+  * [Writing build scripts](https://docs.gradle.org/current/userguide/writing_build_scripts.html)
+* [Gradle plugins]
+  * [Java quickstart](https://docs.gradle.org/current/userguide/tutorial_java_projects.html)
+  * [Application plugin](https://docs.gradle.org/current/userguide/application_plugin.html): to run Java apps on the console
+  * [Groovy quickstart](https://docs.gradle.org/current/userguide/tutorial_groovy_projects.html)
+  * [Groovy plugin](https://docs.gradle.org/current/userguide/groovy_plugin.html)
 * [Gradle DSL reference](https://docs.gradle.org/current/dsl)
 * [Gradle tutorial - Tutorialspoint](http://www.tutorialspoint.com/gradle/)
 
