@@ -27,7 +27,7 @@ Write a task that prints `Hello World!` on the output console.
 
 <img src="web/ad.png">
 
-The output of using the command `./gradlew -q task6` should be something similar to:
+The output of using the command `./gradlew -q task1` should be something similar to:
 
 	I'm task number 1
 	I'm task number 2
