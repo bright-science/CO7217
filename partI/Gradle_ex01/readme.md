@@ -36,7 +36,7 @@ The output of using the command `./gradlew -q task1` should be something similar
 	I'm task number 5
 	I'm task number 6
 
-Note that this is not the only ordering of tasks that is feasible. For example, it would entirely correct to execute `task5` before `task4`.
+Note that this is not the only ordering of tasks that is feasible. For example, it would be entirely correct to execute `task5` before `task4`.
 
 ### Exercise C (:star::star:)
 
