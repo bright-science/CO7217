@@ -2,7 +2,11 @@
 
 # Module Unit 2: Polyglot Persistence
 
-In this module unit, we are going to discuss some key notions underpinning the success of NoSQL technologies with respect to SQL technologies. As a representative example of NoSQL technologies, we will experiment with a MongoDB instance deployed on the Cloud.
+In this module unit, we are going to discuss 
+* key notions underpinning the success of NoSQL technologies with respect to SQL technologies;
+* an outline of the NoSQL ecosystem, focussing on Document stores with MongoDB.
+
+As a representative example of NoSQL technologies, we will experiment with a MongoDB instance deployed on the Cloud.
 
 The lectures are supplemented with a presentation on the subject by Martin Fowler - the author of the book that we are using for this module unit.
 
