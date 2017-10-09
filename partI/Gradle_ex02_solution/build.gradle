@@ -1,0 +1,34 @@
+task wrapper(type: Wrapper) {
+	gradleVersion = '4.1'
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+eclipse {
+	// name of the Eclipse project
+	project.name = 'Gradle_ex02_solution'
+	project {
+	  buildCommand 'org.eclipse.jdt.core.javabuilder'
+	  buildCommand 'org.eclipse.buildship.core.gradleprojectbuilder'
+	  natures 'org.eclipse.jdt.core.javanature',
+		  'org.eclipse.buildship.core.gradleprojectnature'
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+// configuration of the application plugin
+mainClassName = 'labGradle.Log4jExample'
+
+// EXERCISE: set up the dependency to log4j and configure it
+dependencies {
+	compile 'log4j:log4j:1.2.17'
+}
+
