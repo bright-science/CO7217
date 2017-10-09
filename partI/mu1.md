@@ -33,6 +33,7 @@ In this unit, we are going to cover the basics of Groovy's syntax so as to be ab
 For doing formative and assessed coursework, set up your own private [as explained in the tooling section](https://github.com/uol-inf/CO7X17-17-18/blob/master/tooling.md#setting-up-your-github-repository). Once you private repository is set up, do the following exercise:
 
 * :computer: [Exercises with Groovy](https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Groovy_exercises/readme.md)
+  * :computer: [Solution](./Groovy_exercises_solution/) 
 
 Solutions to exercises will be posted under this folder on GitHub as projects with the name `${ExerciseName}_solution`.
 
@@ -62,7 +63,9 @@ In this unit, we are going to focus on automating software builds with Gradle ba
 ### Exercises
 
 * :computer: [Exercise 1](https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Gradle_ex01/readme.md) (**Gradle tasks and dependencies**)
+  * :computer: [Solution](./Gradle_ex01_solution/)
 * :computer: [Exercise 2](https://github.com/uol-inf/CO7X17-17-18/blob/master/partI/Gradle_ex02/readme.md) (**Java builds and Java libraries**)
+  * :computer: [Solution](./Gradle_ex02_solution/)
 
 Solutions to exercises will be posted under this folder on GitHub as projects with the name `${ExerciseName}_solution`.
 
