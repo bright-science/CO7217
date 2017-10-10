@@ -40,7 +40,6 @@ Most of the exercises are done using a bash terminal. We strongly recommend the 
   * to access your `C` use `/mnt/c/`, e.g. `ls /mnt/c/` is like `dir c:\`
 3. Install Java
   * `sudo apt-get update` and enter the root password that you entered above
-  * `sudo apt-get update`
   * install Java 8 as described [here](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
 
 
