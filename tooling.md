@@ -29,8 +29,20 @@ Further considerations on the tools that we are going to use in CO7X17 are descr
     * In some cases, you may not be able to install Groovy plugins, with the error being that you don't have write permissions on the installation folder. If you drag and drop the STS file to the `Applications` folder, you may be able to install the plugins.
   * Windows: `Program Files`
     * Use 7-zip ([http://www.7-zip.org](http://www.7-zip.org)) to unzip the zipped file that you get when you download the STS.
-    * Some students could not install the STS under the folder `Program Files`. If that is your case, try to install the STS in another folder, e.g. in `My Documents`. 
+    * Some students could not install the STS under the folder `Program Files`. If that is your case, try to install the STS in another folder, e.g. in `My Documents`.
   * Linux: your folder of choice
+
+### For Windows 10 users
+
+Most of the exercises are done using a bash terminal. We strongly recommend the installation of the Linux shell:
+1. [Install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide) and create a root account
+2. Open a cmd terminal and type `bash`, now you are in a bash terminal
+  * to access your `C` use `/mnt/c/`, e.g. `ls /mnt/c/` is like `dir c:\`
+3. Install Java
+  * `sudo apt-get update` and enter the root password that you entered above
+  * `sudo apt-get update`
+  * install Java 8 as described [here](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
+
 
 ### Groovy
 
