@@ -14,8 +14,10 @@ At the end of this page you will find a jargon buster on terms that may be new t
 
 Unfortunately, there has been a technical problem with the recording of the lecture and the link below refers to the lecture recorded in the previous year.
 
-* :movie_camera: [Lecture 1a. Continuous Delivery](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab1db355-12b8-4621-abc2-1c073347dc0a)
-* :movie_camera: [Lecture 1b. Gradle](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4a1c3c1b-f9c3-44a9-bac4-c6de95732063)
+* :movie_camera: [Lecture 1. Continuous Delivery](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c9ccac0-c865-49c7-bb86-f8a4c1edf588)
+  * :notebook: [handouts session a](./L1a_handouts.pdf)
+  * :notebook: [handouts session b](./L1b_handouts.pdf)
+
 
 ## Groovy
 

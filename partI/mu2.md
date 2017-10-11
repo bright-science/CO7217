@@ -25,11 +25,16 @@ Martin gives a rapid introduction to NoSQL databases: where they came from, the 
 
 ## Lectures
 
-Lecture recordings are released on Wednesdays:
+Lecture recordings are released on Wednesdays
 
-* :movie_camera: [Lecture 2a. NoSQL](TBA) 
-* :movie_camera: [Lecture 2b. MongoDB](TBA)
-
+* L2: NoSQL (NoSQL - motivation, outline and scalability)
+  * :movie_camera: [Lecture 2a. NoSQL](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fa918bdf-3a39-4a50-87fa-ef59a91c4059): Panopto lost connection with the mic and the recording has to be restarted
+  * :movie_camera: [Lecture 2b. NoSQL](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c6b908c8-9699-476b-a05c-4a3d33be9c78): motivation and outline of NoSQL technologies
+  * :movie_camera: [Lecture 2c. NoSQL](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c3879bd-a3c2-44b7-a2d3-65e8c39efbd5): scalability and MongoDB
+  * :notebook: [handouts session ](./L2a_handouts.pdf)
+* L2b: MongoDB
+  * :movie_camera: [Lecture 2d. NoSQL](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc917a33-8efb-4232-af6f-7cc2c780121f): MongoDB and demo 
+  * :notebook: [handouts session (MongoDB)](./L2b_handouts.pdf)
 
 ## Exercises
 
