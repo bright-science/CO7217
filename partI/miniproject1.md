@@ -156,7 +156,7 @@ Note that you are invited to do some research of your own.
 
 ## Submission procedures
 
-Submit your project using git. Your project should be placed under folder `partI` as in the master repository. That is, your project must be found at `partI/CO7X17.miniproject1` in your repository on GitHub:
+Submit your project using git. Your project should be placed under folder `partI` in your private repository. That is, your project must be found at `partI/CO7X17.miniproject1` in your repository on GitHub:
 * The commands `./twitterMigrate 10` and `./gradlew clean bootRun` must run without compilation/runtime errors.
 * The essay must be available as a PDF file at `partI/CO7X17.miniproject1/essay.pdf`
 
