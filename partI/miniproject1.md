@@ -4,7 +4,7 @@
 
 In this miniproject, we are going to develop a web application that fetches information from a Twitter account using a [REST API](https://developer.twitter.com/en/docs) via OAuth1, storing it in a MongoDB instance on the Cloud using [mLab](https://mlab.com/). Our application will then obtain some business intelligence from the data extracted using the [Java MongoDB API](http://mongodb.github.io/mongo-java-driver/3.5/javadoc/) from Groovy (via [GMongo](https://github.com/poiati/gmongo)).
 
-The [codebase](https://github.com/uol-inf/CO7X17-17-18/tree/master/partI/CO7X17.miniproject1), implementing the skeleton of the web app, facilitated to do the miniproject is built atop the [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web) framework using Groovy for implementing the logic and the views are implemented using [JavaServer Pages](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view-jsp).
+The [codebase](https://github.com/uol-inf/CO7X17-17-18/tree/master/partI/CO7X17.miniproject1), implementing the skeleton of the web app, facilitated to do the miniproject is built atop the [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web) framework using Groovy for implementing the logic and [JavaServer Pages](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-view-jsp) for implementing the views.
 
 
 ## Disclaimer on Plagiarism and Collusion
