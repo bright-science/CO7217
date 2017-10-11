@@ -31,7 +31,7 @@ The data migration process is achieved by executing from a shell terminal the co
 The script will not work straight away. Please configure it as follows:
 * Installation process: 
   * A Bash shell is needed for executing the script `./twitterMigrate.sh`. If you are working on Windows, follow [these instructions](https://github.com/uol-inf/CO7X17-17-18/blob/master/tooling.md#for-windows-10-users).
-  * Install `twurl`, to connect to the Twitter REST API, as described [here](https://github.com/twitter/twurl). 
+  * Install `twurl`, to connect to the Twitter REST API, as described [here](https://github.com/twitter/twurl). You may need to install [Ruby Gems](https://rubygems.org/pages/download).
   * Install `jq`, to pretty print JSON in files (optional), as described [here](https://stedolan.github.io/jq/download/) 
     * if you don't want to install it, remove `| jq .` from the commands in the script `./twitterMigrate.sh` 
 * Configuration:  
