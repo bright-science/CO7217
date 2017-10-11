@@ -36,12 +36,12 @@ Further considerations on the tools that we are going to use in CO7X17 are descr
 
 Some exercises involve working with [Bash (Unix shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell)). We strongly recommend the installation of a Linux shell as follows:
 1. [Install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide) and create a root account
-  * A summary can be found [here](https://superuser.com/a/1059340)
+    * A summary can be found [here](https://superuser.com/a/1059340)
 2. Open a cmd terminal and type `bash`, now you are in a bash terminal
-  * to access your `C` use `/mnt/c/`, e.g. `ls /mnt/c/` is like `dir c:\`
+    * to access your `C` use `/mnt/c/`, e.g. `ls /mnt/c/` is like `dir c:\`
 3. Install Java
-  * `sudo apt-get update` and enter the root password that you entered above
-  * install Java 8 as described [here](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
+    * `sudo apt-get update` and enter the root password that you entered above
+    * install Java 8 as described [here](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
   
 The instructions given for UNIX systems (Linux/MacOS X) should be applicable to Windows using `bash` on a `cmd terminal`. 
 
