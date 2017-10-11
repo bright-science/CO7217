@@ -12,11 +12,11 @@ Outline of assessed coursework:
 
 | assessed component | type | marks | weight | deadline |
 |--|--|--|--|--|
-| miniproject 1 | | 100 | 30% | 27/10/2017 |
+| miniproject 1 | | 100 | 30% | 3/11/2017 (9:00am) |
 | | programming | 60 | | |
 | | essay/open problem which may involve the application of modelling techniques | 40 | | | 
 | test (multiple choice questions, true/false questions) | | 100 | 40% | 23/11/2017 |
-| miniproject 2 | | 100 | 30% | 14/12/2017 |
+| miniproject 2 | | 100 | 30% | 14/12/2017 (9:00am) |
 | | programming | 60 | | |
 | | essay/open problem which may involve the application of modelling techniques | 40 | | | 
 
