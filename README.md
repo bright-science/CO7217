@@ -6,6 +6,8 @@ Repository with learning resources for Agile Cloud Automation (CO7217 and CO7517
 
 Please access the information on Blackboard.
 
+The schedule of the sessions can be found [on this Google calendar](https://calendar.google.com/calendar/embed?src=uf9eg8fvqd5kdk0ge4r44qh4vg%40group.calendar.google.com&ctz=Europe/London).
+
 ## Exercises and assessed coursework
 
 Outline of assessed coursework:
