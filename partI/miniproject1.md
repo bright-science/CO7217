@@ -154,6 +154,15 @@ Note that you are invited to do some research of your own.
 * **Merit**: The essay includes a objective view on the technology and techniques discussed in the module, demonstrating a clear comprehension of the approaches and tools used.  The solution document is well written, using a consistent style and professional layout.
 * **Pass**: The essay includes a discussion of the technology and techniques discussed in the module, demonstrating a basic comprehension of the approaches and tools used. The solution document is well written and clearly readable. 
 
+### Support resources for the essay
+
+* University online study guides:
+  * [Academic writing](https://www2.le.ac.uk/offices/ld/resources/writing)
+  * [Finding information](https://www2.le.ac.uk/offices/ld/resources/finding-information/finding-information)
+* Referencing resources
+  * [Referencing style](https://www2.le.ac.uk/library/help/referencing/author-date)
+  * [Software for managing your references](https://www2.le.ac.uk/library/help/bibliographies)
+
 ## Submission procedures
 
 Submit your project using git. Your project should be placed under folder `partI` in your private repository. That is, your project must be found at `partI/CO7X17.miniproject1` in your repository on GitHub:
