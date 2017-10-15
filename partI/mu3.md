@@ -33,7 +33,9 @@ For doing formative and assessed coursework, set up your own private [as explain
 
 Solutions to exercises will be posted under this folder on GitHub as projects with the name `${ExerciseName}_solution`.
 
-* :black_nib: [Quiz on NoSQL](https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_7623_1&content_id=_1291252_1&mode=cpview)
+* :black_nib: Quiz on NoSQL
+  * [CO4217/CO7217 (campus students)](https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_5572_1&content_id=_1291085_1&mode=view)
+  * [CO7517 (DL students)](https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_7623_1&content_id=_1291252_1&mode=cpview)
   * you may need to be logged in Blackboard in your browser for the redirection to work correctly;
   * feedback is provided as soon as you submit your answers.
   
