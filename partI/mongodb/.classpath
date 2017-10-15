@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="src/test/groovy"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="lib" path="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.7/c5371aaa20bcdca1175d9477fc0811f4fd99b68a/groovy-all-2.4.7.jar" sourcepath="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.7/467466f42be9d5bf1680cf71b5c4d31ad959dc36/groovy-all-2.4.7-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/ab373/.gradle/caches/modules-2/files-2.1/com.gmongo/gmongo/1.5/6b15fe2181ec1e99066bf8180771bee5c4faf835/gmongo-1.5.jar" sourcepath="/Users/ab373/.gradle/caches/modules-2/files-2.1/com.gmongo/gmongo/1.5/5f7e3eab48dc6c167e5a680767de4541f576a2e3/gmongo-1.5-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/2.13.0/6b19c1276871001fa85684475db7e4c538046b52/mongo-java-driver-2.13.0.jar" sourcepath="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/2.13.0/3a86ea66cd451ac9e52dd6a8032c53bfaa0ebcc2/mongo-java-driver-2.13.0-sources.jar"/>
@@ -16,6 +17,5 @@
 	<classpathentry kind="lib" path="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.4/b063757dacaa716b643c2f9270e469183636ff11/ant-junit-1.9.4.jar" sourcepath="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.4/c896696079fc83acc88306dcbaff13a8227422e3/ant-junit-1.9.4-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.4.1/d1ee8c32a666a0bc39c2e326c457b1142a636382/groovy-templates-2.4.1.jar" sourcepath="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.4.1/f843f5fe8392c669f3d07b01b6561eda2efad69e/groovy-templates-2.4.1-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.1/43783b1ddaa495eff815951788bc0710dda485a5/groovy-xml-2.4.1.jar" sourcepath="/Users/ab373/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.1/c752e09d004c03de1f87574155725cf48f8feca5/groovy-xml-2.4.1-sources.jar"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

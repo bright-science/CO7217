@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partI/.mu2.md.html</title>
+<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partI/.mu3.md.html</title>
 
 
 <style type="text/css">
@@ -639,52 +639,40 @@ function setDocumentScrollTop(ypos)
 
 </head>
 <body class="markdown-body">
-<h1> <a id="module-unit-2-polyglot-persistence" class="anchor" href="#module-unit-2-polyglot-persistence" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module Unit 2: Polyglot Persistence</h1> 
-<p>In this module unit, we are going to discuss</p> 
+<h1> <a id="module-unit-2-polyglot-persistence-ii" class="anchor" href="#module-unit-2-polyglot-persistence-ii" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module Unit 2: Polyglot Persistence (II)</h1> 
+<p>This module unit is a follow-up of the previous unit on NoSQL, and we are going to cover:</p> 
 <ul> 
- <li>key notions underpinning the success of NoSQL technologies with respect to SQL technologies;</li> 
- <li>an outline of the NoSQL ecosystem, focussing on Document stores with MongoDB.</li> 
+ <li>consistency in cloud systems;</li> 
+ <li>trade-offs to be made to improve availability in cloud systems;</li> 
+ <li>consistency in MongoDB.</li> 
 </ul> 
-<p>As a representative example of NoSQL technologies, we will experiment with a MongoDB instance deployed on the Cloud.</p> 
-<p>The lectures are supplemented with a presentation on the subject by Martin Fowler - the author of the book that we are using for this module unit.</p> 
-<p>The exercises illustrate how to use a document store (MongoDB) for implementing data persistence layers for cloud applications with very little effort using the languages that we learnt in the previous module unit (Gradle and Groovy).</p> 
-<h2> <a id="introduction-to-nosql-by-martin-fowler" class="anchor" href="#introduction-to-nosql-by-martin-fowler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction to NoSQL by Martin Fowler</h2> 
-<p>Martin Fowler - Author, Speaker, Consultant &amp; General Loud-mouth on Software Development</p> 
-<p>This presentation was recorded at <a href="http://gotocon.com">GOTO Aarhus 2012</a>.</p> 
-<p>Martin gives a rapid introduction to NoSQL databases: where they came from, the nature of the data models they use, and the different way you have to think about consistency. From this he outlines what kinds of circumstances you should consider using them, why they will not make relational databases obsolete, and the important consequence of polyglot persistence.</p> 
-<p><a href="https://youtu.be/qI_g07C_Q5I"><img src="https://camo.githubusercontent.com/8454ac168c66517d0438e4fcfa90c12ff226820c/687474703a2f2f696d672e796f75747562652e636f6d2f76692f71495f673037435f5135492f302e6a7067" alt="ScreenShot" data-canonical-src="http://img.youtube.com/vi/qI_g07C_Q5I/0.jpg" style="max-width:100%;" /></a></p> 
+<p>In the lecture we will discuss a web app built atop the <a href="https://spring.io/">Spring Framework</a> that integrates with the Twitter API and with MongoDB instance on mLab (via GMongo), building on the exercises used in <a href="./.mu2.md.html">module unit 2</a>.</p> 
+<p>In the exercises, we will use the source code of this web app for extracting information from Twitter. This source code is the codebase to be used to solve the programming exercises of <a href="./.miniproject1.md.html">miniproject 1</a>.</p> 
+<p>There is also a quiz for summarizing the theory covered.</p> 
 <h2> <a id="lectures" class="anchor" href="#lectures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lectures</h2> 
-<p>Lecture recordings are released on Wednesdays</p> 
+<p>Lecture recordings are released on Wednesdays:</p> 
 <ul> 
- <li>L2: NoSQL (NoSQL - motivation, outline and scalability) 
+ <li>L2: NoSQL (consistency) 
   <ul> 
    <li> 
     <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
      🎥
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fa918bdf-3a39-4a50-87fa-ef59a91c4059">Lecture 2a. NoSQL</a>: Panopto lost connection with the mic and the recording had to be restarted</li> 
-   <li> 
-    <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
-     🎥
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c6b908c8-9699-476b-a05c-4a3d33be9c78">Lecture 2b. NoSQL</a>: motivation and outline of NoSQL technologies</li> 
-   <li> 
-    <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
-     🎥
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c3879bd-a3c2-44b7-a2d3-65e8c39efbd5">Lecture 2c. NoSQL</a>: scalability and MongoDB</li> 
+    </g-emoji> <a href=".TBA.md.html">Lecture 3a</a> </li> 
    <li> 
     <g-emoji alias="notebook" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d3.png" ios-version="6.0">
      📓
-    </g-emoji> <a href="./L2a_handouts.pdf">handouts (NoSQL)</a> </li> 
+    </g-emoji> <a href="./L3a_handouts.pdf">handouts</a> </li> 
   </ul> </li> 
- <li>L2b: MongoDB 
+ <li>L2b: Preparation for miniproject (Twitter integration) 
   <ul> 
    <li> 
     <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
      🎥
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc917a33-8efb-4232-af6f-7cc2c780121f">Lecture 2d. NoSQL</a>: MongoDB and demo</li> 
+    </g-emoji> <a href=".TBA.md.html">Lecture 3b</a> </li> 
    <li> 
     <g-emoji alias="notebook" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d3.png" ios-version="6.0">
      📓
-    </g-emoji> <a href="./L2b_handouts.pdf">handouts (MongoDB)</a> </li> 
+    </g-emoji> <a href="./L3b_handouts.pdf">handouts</a> </li> 
   </ul> </li> 
 </ul> 
 <h2> <a id="exercises" class="anchor" href="#exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h2> 
@@ -693,18 +681,28 @@ function setDocumentScrollTop(ypos)
  <li> 
   <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
    💻
-  </g-emoji> <a href="./mongodb/.readme.md.html">MongoDB exercises</a> 
+  </g-emoji> <a href="./twitter/.readme.md.html">Twitter integration</a> (to be released on Wednesday) 
   <ul> 
    <li> 
     <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
      💻
-    </g-emoji> <a href="./.mongodb_solution.md.html">solution to exercises</a> (this link will be enabled when solutions are released)</li> 
+    </g-emoji> <a href="./.twitter_solution.md.html">solution to exercises</a> (this link will be enabled when solutions are released)</li> 
   </ul> </li> 
 </ul> 
 <p>Solutions to exercises will be posted under this folder on GitHub as projects with the name <code>${ExerciseName}_solution</code>.</p> 
+<ul> 
+ <li> 
+  <g-emoji alias="black_nib" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2712.png" ios-version="6.0">
+   ✒️
+  </g-emoji> <a href="https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_7623_1&amp;content_id=_1291252_1&amp;mode=cpview">Quiz on NoSQL</a> 
+  <ul> 
+   <li>you may need to be logged in Blackboard in your browser for the redirection to work correctly;</li> 
+   <li>feedback is provided as soon as you submit your answers.</li> 
+  </ul> </li> 
+</ul> 
 <h2> <a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h2> 
 <ul> 
- <li>Pramod J. Sadalage; Martin Fowler. NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence. Addison-Wesley Professional. Chapters 1-4, 9. (available on the <a href="http://proquest.safaribooksonline.com.ezproxy3.lib.le.ac.uk/book/databases/9780133036138">Library catalogue</a>)</li> 
+ <li>Pramod J. Sadalage; Martin Fowler. NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence. Addison-Wesley Professional. Chapters 5, 9. (available on the <a href="http://proquest.safaribooksonline.com.ezproxy3.lib.le.ac.uk/book/databases/9780133036138">Library catalogue</a>)</li> 
 </ul>
 </body>
 </html>

@@ -47,5 +47,5 @@ Solutions to exercises will be posted under this folder on GitHub as projects wi
   
 ## References
 
-* Pramod J. Sadalage; Martin Fowler. NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence. Addison-Wesley Professional. Chapters 1-3, 9. (available on the [Library catalogue](http://proquest.safaribooksonline.com.ezproxy3.lib.le.ac.uk/book/databases/9780133036138))
+* Pramod J. Sadalage; Martin Fowler. NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence. Addison-Wesley Professional. Chapters 1-4, 9. (available on the [Library catalogue](http://proquest.safaribooksonline.com.ezproxy3.lib.le.ac.uk/book/databases/9780133036138))
 
