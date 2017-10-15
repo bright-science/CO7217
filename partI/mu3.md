@@ -1,6 +1,6 @@
 <link rel='stylesheet' href='web/swiss.css'/>
 
-# Module Unit 2: Polyglot Persistence (II)
+# Module Unit 3: Polyglot Persistence (II)
 
 This module unit is a follow-up of the previous unit on NoSQL, and we are going to cover:
 * consistency in cloud systems;
