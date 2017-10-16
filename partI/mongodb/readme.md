@@ -11,7 +11,7 @@ In this tutorial we are going to use [MongoDb Java Driver](https://docs.mongodb.
 
 First, we need to set up our MongoDB instance. We are going to use mLab, a cloud database provider built atop Infrastructure-as-a-Service (IaaS) providers, so that we do not need to install and configure the database server locally.
 
-* Sign up and create a new account on [mLab](https://mongolab.com/welcome/)
+* Sign up and create a new account on [mLab](https://mlab.com/welcome/)
 * Once you have confirmed you email address, create a new database by clicking on `Create New`.
 * Choose your cloud provider of choice from `Amazon Web Services`, `Google Cloud Platform`, `Windows Azure` and the location. For example: `Amazon Web Services` and `Amazon EU (Ireland)`.
 * Choose a single-node plan: the free option is enough for this lab session.
