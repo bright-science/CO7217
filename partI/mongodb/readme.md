@@ -205,6 +205,12 @@ Update message field of document with id "X999_Y999" to "Remembering what happen
 
 Delete the document with id: "id": "X998_Y998"
 
+## Exercise 4
+
+Use [JsonSlurper::parseText()](http://groovy-lang.org/json.html#json_jsonslurper) to parse JSON text into objects in memory, so that there is no need to create objects manually, and use [JsonOutput::toJson()](http://groovy-lang.org/json.html#_jsonoutput) to serialize objects in memory to JSON.
+
+A document `src/main/resources/facebook.json` contains the JSON documents used above. Use `JsonSlurper` to parse JSON from the text directly.
+
 ## Sources
 
 * Official API documentation [MongoDb API](http://api.mongodb.com/java/2.13/)
