@@ -41,8 +41,10 @@ user.name = 'Luke E.'
 db.users.save user
 assert db.users.findOne(id: 2).name == 'Luke E.'
 
-// fetching all the elements of a collection 
-println db.users.find()
+// fetching all the elements of a collection in a DBCursor
+def cursor = db.users.find()
+// convert the cursor into an array and show it on the output console
+println cursor.toArray()
 
 // fetching all elements that meet a condition
 db.users.find(role: 'developer').each{ println it }
