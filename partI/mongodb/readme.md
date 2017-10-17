@@ -27,7 +27,7 @@ First, we need to set up our MongoDB instance. We are going to use mLab, a cloud
 </ul>
 * We are all set. Your MongoDB instance is up and running on the cloud!
 
-### Getting started with Spring Data and MongoDb
+### Getting started with MongoDb
 
 * Pull the general git repository (clone it first if you haven't done it yet)
 * Copy the project `mongodb` under `partI` in the master repository to your private repository
@@ -38,7 +38,17 @@ First, we need to set up our MongoDB instance. We are going to use mLab, a cloud
 	
 	compile "org.codehaus.groovy:groovy-all:$groovyVersion"
 	compile "com.gmongo:gmongo:1.5"
-	
+
+### Using eduroam
+
+To connect to `mLab` using `eduroam`, if you are working from your laptop on campus, you will find that most of the ports are blocked. 
+
+To circumvent this problem, create a SSH tunnel to `xanthus.mcscw3.le.ac.uk` which is a wired machine that will work as a local proxy to the Internet using the following command from a Bash terminal:
+
+	ssh -fNg -L $PORT:mlab.com:$PORT $UOL_USERNAME@xanthus.mcscw3.le.ac.uk
+
+Replace `$PORT` with the port used for your database connection and replace `$UOL_USERNAME` with your University username. The password that you have to enter is your departmental Linux password. Once the tunnel is established there is no confirmation message but the connection should work. 
+
 ## File GMongoDb
 
 This is a Groovy script containing example code showing how to implement CRUD operations using a MongoDB store.

@@ -645,7 +645,7 @@ function setDocumentScrollTop(ypos)
 <h3> <a id="create-an-account-on-mongolab" class="anchor" href="#create-an-account-on-mongolab" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create an account on MongoLab</h3> 
 <p>First, we need to set up our MongoDB instance. We are going to use mLab, a cloud database provider built atop Infrastructure-as-a-Service (IaaS) providers, so that we do not need to install and configure the database server locally.</p> 
 <ul> 
- <li>Sign up and create a new account on <a href="https://mongolab.com/welcome/">mLab</a> </li> 
+ <li>Sign up and create a new account on <a href="https://mlab.com/welcome/">mLab</a> </li> 
  <li>Once you have confirmed you email address, create a new database by clicking on <code>Create New</code>.</li> 
  <li>Choose your cloud provider of choice from <code>Amazon Web Services</code>, <code>Google Cloud Platform</code>, <code>Windows Azure</code> and the location. For example: <code>Amazon Web Services</code> and <code>Amazon EU (Ireland)</code>.</li> 
  <li>Choose a single-node plan: the free option is enough for this lab session.</li> 
@@ -660,7 +660,7 @@ function setDocumentScrollTop(ypos)
  <li>`MY_PORT=33754`</li> 
  <li>`MY_DATABASE=DATABASE`</li> 
 </ul> * We are all set. Your MongoDB instance is up and running on the cloud! 
-<h3> <a id="getting-started-with-spring-data-and-mongodb" class="anchor" href="#getting-started-with-spring-data-and-mongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started with Spring Data and MongoDb</h3> 
+<h3> <a id="getting-started-with-mongodb" class="anchor" href="#getting-started-with-mongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started with MongoDb</h3> 
 <ul> 
  <li> <p>Pull the general git repository (clone it first if you haven't done it yet)</p> </li> 
  <li> <p>Copy the project <code>mongodb</code> under <code>partI</code> in the master repository to your private repository</p> </li> 
@@ -671,6 +671,12 @@ function setDocumentScrollTop(ypos)
   </ul> </li> 
  <li> <p>The Gradle build script imports two dependencies: one for compiling groovy code and the other one for using gmongo</p> <p>compile &quot;org.codehaus.groovy:groovy-all:$groovyVersion&quot; compile &quot;com.gmongo:gmongo:1.5&quot;</p> </li> 
 </ul> 
+<h3> <a id="using-eduroam" class="anchor" href="#using-eduroam" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using eduroam</h3> 
+<p>To connect to <code>mLab</code>&nbsp;using <code>eduroam</code>, if you are working from your laptop on campus, you will find that most of the ports are blocked.</p> 
+<p>To circumvent this problem, create a SSH tunnel to <code>xanthus.mcscw3.le.ac.uk</code> which is a wired machine that will work as a local proxy to the Internet using the following command from a Bash terminal:</p> 
+<pre><code>ssh -fNg -L $PORT:mlab.com:$PORT $UOL_USERNAME@xanthus.mcscw3.le.ac.uk
+</code></pre> 
+<p>Replace <code>$PORT</code> with the port used for your database connection and replace <code>$UOL_USERNAME</code> with your University username. The password that you have to enter is your departmental Linux password. Once the tunnel is established there is no confirmation message but the connection should work.</p> 
 <h2> <a id="file-gmongodb" class="anchor" href="#file-gmongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>File GMongoDb</h2> 
 <p>This is a Groovy script containing example code showing how to implement CRUD operations using a MongoDB store.</p> 
 <p>The header is as follows:</p> 
@@ -811,6 +817,9 @@ assert 0 == db.users.count()
 <p>Update message field of document with id &quot;X999_Y999&quot; to &quot;Remembering what happened in 2010&quot;.</p> 
 <h3> <a id="exercise-3" class="anchor" href="#exercise-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 3</h3> 
 <p>Delete the document with id: &quot;id&quot;: &quot;X998_Y998&quot;</p> 
+<h3> <a id="exercise-4" class="anchor" href="#exercise-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 4</h3> 
+<p>Use <a href="http://groovy-lang.org/json.html#json_jsonslurper">JsonSlurper::parseText()</a> to parse JSON text into objects in memory, so that there is no need to create objects manually, and use <a href="http://groovy-lang.org/json.html#_jsonoutput">JsonOutput::toJson()</a> to serialize objects in memory to JSON.</p> 
+<p>A document <code>src/main/resources/facebook.json</code>&nbsp;contains the JSON documents used above. Use <code>JsonSlurper</code> to parse JSON from the text directly.</p> 
 <h2> <a id="sources" class="anchor" href="#sources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sources</h2> 
 <ul> 
  <li>Official API documentation <a href="http://api.mongodb.com/java/2.13/">MongoDb API</a> </li> 
