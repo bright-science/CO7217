@@ -133,10 +133,10 @@ The implementation of functional requirements will be marked as follows:
 ## NoSQL (essay) [40 marks]
 
 Discuss the architecture of Twitter from an scalability point of view, after watching this presentation on [Real-Time Delivery Architecture at Twitter](https://www.infoq.com/presentations/Real-Time-Delivery-Twitter) by [Raffi Krikorian](https://en.wikipedia.org/wiki/Raffi_Krikorian) at that time working for Twitter. Specifically:
-  * Discuss the NoSQL technology used addressing the following questions: **[max. 250 words (excl. images and references), 15 marks]**
-    * What technology has been used?
-    * Why has it been chosen?
+  * Discuss the NoSQL data stores used addressing the following questions: **[max. 250 words (excl. images and references), 15 marks]**
+    * What NoSQL store has been used?
     * What features are provided by that chosen NoSQL store?
+    * Why has it been chosen?
   * Discuss how partitioning and replication is implemented in the architecture of Twitter. **[max. 250 words (excl. images and references), 25 marks]**
 
 Other references that may be helpful are:
