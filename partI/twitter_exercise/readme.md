@@ -1,6 +1,6 @@
 <link rel='stylesheet' href='web/swiss.css'/>
 
-# Lab session 3: Cloud integration with Twitter and mLab
+# Lab session 3: Business Intelligence from Twitter Data
 
 In this exercise, we are going to develop a web application that obtains some business intelligence from Twitter data, already extracted via [twurl](https://github.com/twitter/twurl).
 
