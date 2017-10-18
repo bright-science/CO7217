@@ -17,11 +17,11 @@ There is also a quiz for summarizing the theory covered.
 
 Lecture recordings are released on Wednesdays:
 
-* L2: NoSQL (consistency)
-  * :movie_camera: [Lecture 3a](TBA)
+* L3a: NoSQL (consistency)
+  * :movie_camera: [Lecture 3a](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e305bf7e-aec5-4f52-86f9-994e380f2149)
   * :notebook: [handouts](./L3a_handouts.pdf)
-* L2b: Preparation for miniproject (Twitter integration)
-  * :movie_camera: [Lecture 3b](TBA) 
+* L3b: Preparation for miniproject (Twitter integration)
+  * :movie_camera: [Lecture 3b](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aadd7904-e313-47f7-8cda-969543656e23) 
   * :notebook: [handouts](./L3b_handouts.pdf)
 
 ## Exercises
