@@ -18,7 +18,7 @@ The codebase provided for this exercise is going to be very similar to the one p
     * `./gradlew clean bootRun` starts the web server
     * `CTRL-C` stops the server
   * From the STS, in perspective `Spring` and view `Boot Dashboard`, click on the project `twitter_exercises` and the run button. 
-* The JSON files under `src/main/resources/twitter` provide some sample data that can be retrieved from Twitter using `twurl`. 
+* The JSON files under [src/main/resources/twitter](./src/main/resources/twitter) provide some sample data that can be retrieved from Twitter using `twurl`. 
 
 Access the web app at [http://localhost:8080](http://localhost:8080).
 
@@ -26,7 +26,7 @@ Access the web app at [http://localhost:8080](http://localhost:8080).
 
 In the controller [IndexController](./src/main/groovy/lab3/reports/IndexController.groovy), add code to the handler method `followers()` in order to list all the friends that are also followers.
 
-Your code should extract data from the files `friends.json`  and `followers.json`  under `src/main/resources/twitter` using `JsonSlurper`.
+Your code should extract data from the files `friends.json`  and `followers.json`  under [src/main/resources/twitter](./src/main/resources/twitter) using `JsonSlurper`.
 
 ### Exercise 2: friends report 
 
@@ -39,7 +39,7 @@ For each friend, add an object `FriendDto` into the list `friends` with the foll
   * `noFavoriteTweets`: the overall number of *likes* (aggregated favorite count for all tweets) for their selected tweets (those counted above) 
   * `noPopularTweets`: the number of popular tweets (whose whose favorite count is greater than 5) for their selected tweets (those counted above) 
 
-Your code should extract data from the files under `src/main/resources/twitter` using `JsonSlurper`.
+Your code should extract data from the files under [src/main/resources/twitter](./src/main/resources/twitter) using `JsonSlurper`.
 
 
 

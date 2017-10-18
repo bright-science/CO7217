@@ -655,12 +655,12 @@ function setDocumentScrollTop(ypos)
     </ul> </li> 
    <li>From the STS, in perspective <code>Spring</code>&nbsp;and view <code>Boot Dashboard</code>, click on the project <code>twitter_exercises</code> and the run button.</li> 
   </ul> </li> 
- <li>The JSON files under <code>src/main/resources/twitter</code> provide some sample data that can be retrieved from Twitter using <code>twurl</code>.</li> 
+ <li>The JSON files under <a href="./src/main/resources/.twitter.md.html">src/main/resources/twitter</a> provide some sample data that can be retrieved from Twitter using <code>twurl</code>.</li> 
 </ul> 
 <p>Access the web app at <a href="http://localhost:8080">http://localhost:8080</a>.</p> 
 <h3> <a id="exercise-1-followers-report" class="anchor" href="#exercise-1-followers-report" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 1: followers report</h3> 
 <p>In the controller <a href="./src/main/groovy/lab3/reports/IndexController.groovy">IndexController</a>, add code to the handler method <code>followers()</code> in order to list all the friends that are also followers.</p> 
-<p>Your code should extract data from the files <code>friends.json</code>&nbsp; and <code>followers.json</code>&nbsp; under <code>src/main/resources/twitter</code> using <code>JsonSlurper</code>.</p> 
+<p>Your code should extract data from the files <code>friends.json</code>&nbsp; and <code>followers.json</code>&nbsp; under <a href="./src/main/resources/.twitter.md.html">src/main/resources/twitter</a> using <code>JsonSlurper</code>.</p> 
 <h3> <a id="exercise-2-friends-report" class="anchor" href="#exercise-2-friends-report" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 2: friends report</h3> 
 <p>In the controller <a href="./src/main/groovy/lab3/reports/IndexController.groovy">IndexController</a>, add code to the handler method <code>friends()</code> in order to mine some intelligence about the provided Twitter data.</p> 
 <p>For each friend, add an object <code>FriendDto</code> into the list <code>friends</code> with the following information:</p> 
@@ -671,6 +671,6 @@ function setDocumentScrollTop(ypos)
  <li> <code>noFavoriteTweets</code>: the overall number of <em>likes</em> (aggregated favorite count for all tweets) for their selected tweets (those counted above)</li> 
  <li> <code>noPopularTweets</code>: the number of popular tweets (whose whose favorite count is greater than 5) for their selected tweets (those counted above)</li> 
 </ul> 
-<p>Your code should extract data from the files under <code>src/main/resources/twitter</code> using <code>JsonSlurper</code>.</p>
+<p>Your code should extract data from the files under <a href="./src/main/resources/.twitter.md.html">src/main/resources/twitter</a> using <code>JsonSlurper</code>.</p>
 </body>
 </html>
