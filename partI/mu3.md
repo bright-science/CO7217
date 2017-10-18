@@ -28,8 +28,8 @@ Lecture recordings are released on Wednesdays:
 
 For doing formative and assessed coursework, set up your own private [as explained in the tooling section](https://github.com/uol-inf/CO7X17-17-18/blob/master/tooling.md#setting-up-your-github-repository). Once you private repository is set up, do the following exercise:
 
-* :computer: [Twitter integration](./twitter/readme.md) (to be released on Wednesday)
-  * :computer: [solution to exercises](./twitter_solution) (this link will be enabled when solutions are released)
+* :computer: [Twitter integration](./twitter_exercise/readme.md) (to be released on Wednesday)
+  * :computer: [solution to exercises](./twitter_exercise_solution) (this link will be enabled when solutions are released)
 
 Solutions to exercises will be posted under this folder on GitHub as projects with the name `${ExerciseName}_solution`.
 
