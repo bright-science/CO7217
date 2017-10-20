@@ -6,7 +6,7 @@
 		<title>Followers report</title>
 	</head>
 	<body>
-		<h4>These are the followers that also follow you:</h4>
+		<h4>These are the followers that follow Martin Fowler:</h4>
 		
 		<ul>
 			<c:forEach var="follower" items="${followers}">

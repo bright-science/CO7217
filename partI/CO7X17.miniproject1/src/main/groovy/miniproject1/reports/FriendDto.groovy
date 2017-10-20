@@ -4,6 +4,6 @@ class FriendDto {
 	String name
 	String description
 	int noTweets
-	int noFavoriteTweets
-	int noPopularTweets
+	int noRetweets
+	int noActiveTweets
 }

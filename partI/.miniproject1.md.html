@@ -701,6 +701,7 @@ function setDocumentScrollTop(ypos)
 </code></pre> </li> 
  <li> <p>Store the following information about tweets</p> <pre><code>  id_str,
   created_at,
+  entities,
   favorite_count,
   favorited,
   user.id_str,
@@ -726,13 +727,15 @@ function setDocumentScrollTop(ypos)
  <li>The command <code>./twitterMigrate 10</code> executes without problems, doing what it is intended to do. <strong>[10 marks]</strong> </li> 
 </ul> 
 <h3> <a id="exercise-2-followers-report-10-marks" class="anchor" href="#exercise-2-followers-report-10-marks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 2: followers report [10 marks]</h3> 
-<p>In the controller <code>IndexController</code>, add code to the handler method <code>followers</code> in order to list all your friends that also follow you.</p> 
+<p>In the controller <code>IndexController</code>, add code to the handler method <code>followers</code> in order to list all your follower that have tweets that mention <code>martinfowler</code>, i.e. <code>screen_name=='martinfowler'</code> for an entity <code>user_mentions</code> in a tweet published by your follower.</p> 
+<p>For the sample data provided in <code>src/main/resources/twitter/</code>, the result should be:</p> 
+<p><a href="web/followers.png" target="_blank"><img src="web/followers.png" height="300" style="max-width:100%;" /></a></p> 
 <h4> <a id="marking-guidelines-1" class="anchor" href="#marking-guidelines-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Marking guidelines:</h4> 
 <p>The web app must be executable by using <code>./gradlew bootRun</code>. If there are compilation errors or this command cannot be executed for other technical reasons, a mark of <strong>0</strong> (<strong>zero</strong>) will be awarded.</p> 
 <p>The implementation of functional requirements will be marked as follows:</p> 
 <ul> 
- <li>Friends are listed. <strong>[5 marks]</strong> </li> 
- <li>Only those friends who also follow you are listed. <strong>[5 marks]</strong> </li> 
+ <li>Followers are listed. <strong>[2.5 marks]</strong> </li> 
+ <li>Only those followers who mentioned 'martinfowler' in their tweets are listed. <strong>[7.5 marks]</strong> </li> 
 </ul> 
 <h3> <a id="exercise-3-friends-report-20-marks" class="anchor" href="#exercise-3-friends-report-20-marks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 3: friends report [20 marks]</h3> 
 <p>In the controller <code>IndexController</code>, add code to the handler method <code>friends</code> in order to mine some intelligence about your Twitter account:</p> 
@@ -741,16 +744,18 @@ function setDocumentScrollTop(ypos)
  <li> <code>name</code>: your friend <code>name</code> </li> 
  <li> <code>description</code>: your friend description</li> 
  <li> <code>noTweets</code>: their number of tweets (up to 10)</li> 
- <li> <code>noFavoriteTweets</code>: the overall number of <em>likes</em> (aggregated favorite count for all tweets) for their selected tweets (those counted above)</li> 
- <li> <code>noPopularTweets</code>: the number of popular tweets (whose whose favorite count is greater than 5) for their selected tweets (those counted above)</li> 
+ <li> <code>noRetweets</code>: the overall number of <em>retweets</em> (aggregated retweet count for all tweets) for their selected tweets (those fetched from twurl or in the sample files)</li> 
+ <li> <code>noActiveTweets</code>: the number of tweets that have caused discussion (whose whose retweet count is greater than 100) for their selected tweets (those fetched from twurl or in the sample files)</li> 
 </ul> 
+<p>For the sample data provided in <code>src/main/resources/twitter/</code>, the result should be:</p> 
+<p><a href="web/friends.png" target="_blank"><img src="web/friends.png" height="500" style="max-width:100%;" /></a></p> 
 <h4> <a id="marking-guidelines-2" class="anchor" href="#marking-guidelines-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Marking guidelines:</h4> 
 <p>The web app must be executable by using <code>./gradlew bootRun</code>. If there are compilation errors or this command cannot be executed for other technical reasons, a mark of <strong>0</strong> (<strong>zero</strong>) will be awarded.</p> 
 <p>The implementation of functional requirements will be marked as follows:</p> 
 <ul> 
  <li>fields <code>name</code>, <code>description</code> and <code>noTweets</code> extracted correctly for up to 10 friends. <strong>[5 marks]</strong> </li> 
- <li>field <code>noFavoriteTweets</code> extracted correctly for up to 10 friends. <strong>[7.5 marks]</strong> </li> 
- <li>field <code>noPopularTweets</code> extracted correctly for up to 10 friends. <strong>[7.5 marks]</strong> </li> 
+ <li>field <code>noRetweets</code> extracted correctly for up to 10 friends. <strong>[7.5 marks]</strong> </li> 
+ <li>field <code>noActiveTweets</code> extracted correctly for up to 10 friends. <strong>[7.5 marks]</strong> </li> 
 </ul> 
 <h2> <a id="nosql-essay-40-marks" class="anchor" href="#nosql-essay-40-marks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NoSQL (essay) [40 marks]</h2> 
 <p>Discuss the architecture of Twitter from an scalability point of view, after watching this presentation on <a href="https://www.infoq.com/presentations/Real-Time-Delivery-Twitter">Real-Time Delivery Architecture at Twitter</a> by <a href="https://en.wikipedia.org/wiki/Raffi_Krikorian">Raffi Krikorian</a> at that time working for Twitter. Specifically:</p> 

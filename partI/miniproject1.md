@@ -68,6 +68,7 @@ Take into account the following requirements:
 	
 		id_str,
 		created_at,
+		entities,
 		favorite_count,
 		favorited,
 		user.id_str,
@@ -95,15 +96,19 @@ The implementation of functional requirements will be marked as follows:
 
 ### Exercise 2: followers report [10 marks]
 
-In the controller `IndexController`, add code to the handler method `followers` in order to list all your friends that also follow you.
+In the controller `IndexController`, add code to the handler method `followers` in order to list all your follower that have tweets that mention `martinfowler`, i.e. `screen_name=='martinfowler'` for an entity `user_mentions` in a tweet published by your follower. 
+
+For the sample data provided in `src/main/resources/twitter/`, the result should be:
+
+<img src="web/followers.png" height="300">
 
 #### Marking guidelines:
 
 The web app must be executable by using `./gradlew bootRun`. If there are compilation errors or this command cannot be executed for other technical reasons, a mark of **0** (**zero**) will be awarded. 
 
 The implementation of functional requirements will be marked as follows:
-* Friends are listed. **[5 marks]**
-* Only those friends who also follow you are listed. **[5 marks]**
+* Followers are listed. **[2.5 marks]**
+* Only those followers who mentioned 'martinfowler' in their tweets are listed. **[7.5 marks]**
 
 
 ### Exercise 3: friends report [20 marks]
@@ -114,8 +119,12 @@ For each friend, add an object `FriendDto` into the list `friends` with the foll
   * `name`: your friend `name`
   * `description`: your friend description
   * `noTweets`: their number of tweets (up to 10)
-  * `noFavoriteTweets`: the overall number of *likes* (aggregated favorite count for all tweets) for their selected tweets (those counted above) 
-  * `noPopularTweets`: the number of popular tweets (whose whose favorite count is greater than 5) for their selected tweets (those counted above) 
+  * `noRetweets`: the overall number of *retweets* (aggregated retweet count for all tweets) for their selected tweets (those fetched from twurl or in the sample files)
+  * `noActiveTweets`: the number of tweets that have caused discussion (whose whose retweet count is greater than 100) for their selected tweets (those fetched from twurl or in the sample files)  
+
+For the sample data provided in `src/main/resources/twitter/`, the result should be:
+
+<img src="web/friends.png" height="500">
 
 #### Marking guidelines:
 
@@ -123,9 +132,8 @@ The web app must be executable by using `./gradlew bootRun`. If there are compil
 
 The implementation of functional requirements will be marked as follows:
 * fields `name`, `description` and `noTweets` extracted correctly for up to 10 friends. **[5 marks]**	
-* field `noFavoriteTweets` extracted correctly for up to 10 friends. **[7.5 marks]**
-* field `noPopularTweets` extracted correctly for up to 10 friends. **[7.5 marks]**	
-
+* field `noRetweets` extracted correctly for up to 10 friends. **[7.5 marks]**
+* field `noActiveTweets` extracted correctly for up to 10 friends. **[7.5 marks]**	
 
 
 

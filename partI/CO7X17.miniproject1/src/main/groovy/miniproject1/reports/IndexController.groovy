@@ -29,7 +29,7 @@ public class IndexController {
 	
 	@RequestMapping(value="followers", method=RequestMethod.GET)
 	public String followers(Model model) {
-		def followedFollowers
+		def followedFollowers = []
 		
 		// tag::exercise[]
 		

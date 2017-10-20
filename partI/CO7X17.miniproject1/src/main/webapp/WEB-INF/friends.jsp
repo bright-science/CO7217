@@ -28,16 +28,16 @@
 				<td>Name</td>
 				<td>Description</td>
 				<td>Number of posts</td>
-				<td>Number of overall likes</td>
-				<td>Number of popular tweets (>5 likes)</td>
+				<td>Number of overall retweets</td>
+				<td>Number of active tweets (>100 retweets)</td>
 			</tr>
 			<c:forEach var="friend" items="${friends}">
 				<tr>
 					<td>${friend.name}</td>
 					<td>${friend.description}</td>
 					<td>${friend.noTweets}</td>
-					<td>${friend.noFavoriteTweets}</td>
-					<td>${friend.noPopularTweets}</td>
+					<td>${friend.noRetweets}</td>
+					<td>${friend.noActiveTweets}</td>
 				</tr>
 			</c:forEach>
 		</table>
