@@ -98,6 +98,8 @@ The implementation of functional requirements will be marked as follows:
 
 In the controller `IndexController`, add code to the handler method `followers` in order to list all your follower that have tweets that mention `martinfowler`, i.e. `screen_name=='martinfowler'` for an entity `user_mentions` in a tweet published by your follower. 
 
+The controller **must get the information from the data on your MongoDB instance on mLab**, and not from the JSON files directly.
+
 For the sample data provided in `src/main/resources/twitter/`, the result should be:
 
 <img src="web/followers.png" height="300">
@@ -121,6 +123,8 @@ For each friend, add an object `FriendDto` into the list `friends` with the foll
   * `noTweets`: their number of tweets (up to 10)
   * `noRetweets`: the overall number of *retweets* (aggregated retweet count for all tweets) for their selected tweets (those fetched from twurl or in the sample files)
   * `noActiveTweets`: the number of tweets that have caused discussion (whose whose retweet count is greater than 100) for their selected tweets (those fetched from twurl or in the sample files)  
+
+The controller **must get the information from the data on your MongoDB instance on mLab**, and not from the JSON files directly.
 
 For the sample data provided in `src/main/resources/twitter/`, the result should be:
 

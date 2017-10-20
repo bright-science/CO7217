@@ -728,6 +728,7 @@ function setDocumentScrollTop(ypos)
 </ul> 
 <h3> <a id="exercise-2-followers-report-10-marks" class="anchor" href="#exercise-2-followers-report-10-marks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercise 2: followers report [10 marks]</h3> 
 <p>In the controller <code>IndexController</code>, add code to the handler method <code>followers</code> in order to list all your follower that have tweets that mention <code>martinfowler</code>, i.e. <code>screen_name=='martinfowler'</code> for an entity <code>user_mentions</code> in a tweet published by your follower.</p> 
+<p>The controller <strong>must get the information from the data on your MongoDB instance on mLab</strong>, and not from the JSON files directly.</p> 
 <p>For the sample data provided in <code>src/main/resources/twitter/</code>, the result should be:</p> 
 <p><a href="web/followers.png" target="_blank"><img src="web/followers.png" height="300" style="max-width:100%;" /></a></p> 
 <h4> <a id="marking-guidelines-1" class="anchor" href="#marking-guidelines-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Marking guidelines:</h4> 
@@ -747,6 +748,7 @@ function setDocumentScrollTop(ypos)
  <li> <code>noRetweets</code>: the overall number of <em>retweets</em> (aggregated retweet count for all tweets) for their selected tweets (those fetched from twurl or in the sample files)</li> 
  <li> <code>noActiveTweets</code>: the number of tweets that have caused discussion (whose whose retweet count is greater than 100) for their selected tweets (those fetched from twurl or in the sample files)</li> 
 </ul> 
+<p>The controller <strong>must get the information from the data on your MongoDB instance on mLab</strong>, and not from the JSON files directly.</p> 
 <p>For the sample data provided in <code>src/main/resources/twitter/</code>, the result should be:</p> 
 <p><a href="web/friends.png" target="_blank"><img src="web/friends.png" height="500" style="max-width:100%;" /></a></p> 
 <h4> <a id="marking-guidelines-2" class="anchor" href="#marking-guidelines-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Marking guidelines:</h4> 
