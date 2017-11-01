@@ -178,7 +178,8 @@ Note that you are invited to do some research of your own.
 ## Submission procedures
 
 Submit your project using git. Your project should be placed under folder `partI` in your private repository. That is, your project must be found at `partI/CO7X17.miniproject1` in your repository on GitHub:
-* The commands `./twitterMigrate 10` and `./gradlew clean bootRun` must run without compilation/runtime errors.
+* The commands `./twitterMigrate.sh 10` and `./gradlew clean bootRun` must run without compilation/runtime errors.
+  * The command `./gradlew migrateToMongoDb` must work after copying the files `src/main/resources/twitter/*` to the root folder `CO7X17.miniproject1`. These are the files that will be used for testing your solution.
 * The essay must be available as a PDF file at `partI/CO7X17.miniproject1/essay.pdf`
 
 

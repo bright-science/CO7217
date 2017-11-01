@@ -801,7 +801,10 @@ function setDocumentScrollTop(ypos)
 <h2> <a id="submission-procedures" class="anchor" href="#submission-procedures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Submission procedures</h2> 
 <p>Submit your project using git. Your project should be placed under folder <code>partI</code> in your private repository. That is, your project must be found at <code>partI/CO7X17.miniproject1</code> in your repository on GitHub:</p> 
 <ul> 
- <li>The commands <code>./twitterMigrate 10</code> and <code>./gradlew clean bootRun</code> must run without compilation/runtime errors.</li> 
+ <li>The commands <code>./twitterMigrate.sh 10</code> and <code>./gradlew clean bootRun</code> must run without compilation/runtime errors. 
+  <ul> 
+   <li>The command <code>./gradlew migrateToMongoDb</code> must work after copying the files <code>src/main/resources/twitter/*</code> to the root folder <code>CO7X17.miniproject1</code>. These are the files that will be used for testing your solution.</li> 
+  </ul> </li> 
  <li>The essay must be available as a PDF file at <code>partI/CO7X17.miniproject1/essay.pdf</code> </li> 
 </ul>
 </body>
