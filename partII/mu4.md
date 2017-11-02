@@ -12,8 +12,8 @@ In previous module units, we have used a number of domain-specific languages as 
 The lectures are supplemented with a presentation by Martin Fowler on domain specific languages.
 
 The exercises for this week consist of:
-* a quiz test that you can use to check your understanding on the module unit together;
-* a modelling exercise in which you will have to define the abstract of a domain-specific modelling language, namely a feature modelling language;
+* a quiz test that you can use to check your understanding on the module unit;
+* a modelling exercise in which you will have to define the abstract syntax of a domain-specific modelling language, namely a feature modelling language;
 * a programming exercise on metamodelling with the Eclipse Modeling Framework (EMF).
 
 ## Lectures
