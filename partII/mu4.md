@@ -23,7 +23,7 @@ The exercises for this week consist of:
   * :loud_sound: [Lecture 4a (audio)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=91227800-8bd1-4a27-8949-dc7645653751)
   * :notebook: [handouts](./L4a_handouts.pdf)
 * L4b: Metamodelling with MOF
-  * :movie_camera: [Lecture 4b (video)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4a78e1f2-14fc-48c8-9e6a-9dd45ee95e6f) 
+  * :movie_camera: [Lecture 4b (video)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dfadb650-91cc-446e-b843-082fd255a1b4) 
   * :loud_sound: [Lecture 4b (audio)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=52c65e97-4d7a-4278-97e4-832c356a42b8)
   * :notebook: [handouts](./L4b_handouts.pdf)
 
