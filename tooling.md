@@ -45,8 +45,9 @@ Some exercises involve working with [Bash (Unix shell)](https://en.wikipedia.org
   
 The instructions given for UNIX systems (Linux/MacOS X) should be applicable to Windows using `bash` on a `cmd terminal`. 
 
+### Part I 
 
-### Groovy
+#### Groovy
 
 * From within STS (launch it first).
 * `Help > Dashboard` (from Spring perspective).
@@ -56,13 +57,29 @@ The instructions given for UNIX systems (Linux/MacOS X) should be applicable to 
   * `Groovy-Eclipse`;
   * `Groovy-integration with m2clipse` .
 * Click `Install` and follow the instructions.
+* Install Groovy in your machine
 
-### Gradle
+#### Gradle
 
 * From within STS (launch it first).
 * `Help > Eclipse Marketplace`.
 * Search for `Buildship Gradle Integration 2.0`.
 * Install it and follow the instructions.
+
+### Part II
+
+This is the software that we are going to use during part II. 
+
+Using the same STS, with the previous software configured in your machine, install the following:
+
+* `Help > Install new software`  
+  * Select the [last Eclipse release](https://en.wikipedia.org/wiki/Eclipse_(software)#Releases) that is currently available. For example in 17-18, this is `Oxygen - http://download.eclipse.org/releases/oxygen`.
+  * From the folder `Modeling`, select the following: 
+    * EMF SDK
+    * Ecore diagram editor
+    * XText Complete SDK 
+* `Help > Eclipse Marketplace`
+  * Search for `Epsilon`  and install it (version `1.2` or newer).
 
 ## Setting up your GitHub repository
 
