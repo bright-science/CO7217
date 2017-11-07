@@ -57,7 +57,7 @@ The instructions given for UNIX systems (Linux/MacOS X) should be applicable to 
   * `Groovy-Eclipse`;
   * `Groovy-integration with m2clipse` .
 * Click `Install` and follow the instructions.
-* Install Groovy in your machine following [these instructions](http://groovy-lang.org/install.html).
+* Install Groovy in your machine following [these instructions](http://groovy-lang.org/install.html). These is required to use Groovy from command line.
 
 #### Gradle
 
