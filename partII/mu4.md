@@ -44,7 +44,7 @@ Domain Specific Languages (DSLs) are limited forms of computer language designed
   * :notebook: [worksheet](./sur1_fm.pdf) 
   * :black_nib: [solution to exercises](./surgery1_solution.pdf) (this link will be enabled when solutions are released)
 * :computer: [Metamodelling with EMF](./lab4.emf.md) 
-  * :computer: [solution to exercises](./lab4.emf_solution/) (this link will be enabled when solutions are released)
+  * :computer: [solution to exercises](./lab4.emf.solution/) (this link will be enabled when solutions are released)
 
   
 ## References
