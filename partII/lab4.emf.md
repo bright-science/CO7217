@@ -25,8 +25,11 @@ We will use some facilities provided by the [Eclipse platform](https://www.eclip
   * right-click on the Ecore metamodel, e.g. `model/filesystem.ecore`
   * select `Register EPackages`
 * Open the model:
-  * right-click the sample model, e.g. `Filesystem.xmi`
-  * select `Open with Sample Reflective Ecore Editor`
+  * Create a sample model:
+    * Open the Ecore metamodel `model/filesystem.ecore`;
+    * Right-click on the root EClass `Filesystem`;
+    * `Create dynamic instance...` and give a name to your model, e.g. `Filesystem.xmi`.
+  * Right click on the generated model file and select `Open with Sample Reflective Ecore Editor`. That's what you would get if you generate the editor code.
 
 ## Additional resources
 

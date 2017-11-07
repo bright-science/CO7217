@@ -1,0 +1,8 @@
+/.gradle/
+/.settings/
+/META-INF/
+.classpath
+.project
+build.properties
+plugin.properties
+plugin.xml
