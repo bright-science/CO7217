@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partII/.mu4.md.html</title>
+<title>/Users/ab373/Documents/ArturData/git/CO7X17-17-18/partII/.mu5.md.html</title>
 
 
 <style type="text/css">
@@ -639,101 +639,76 @@ function setDocumentScrollTop(ypos)
 
 </head>
 <body class="markdown-body">
-<h1> <a id="module-unit-4-agile-automation-using-domain-specific-languages" class="anchor" href="#module-unit-4-agile-automation-using-domain-specific-languages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module Unit 4: Agile automation using domain-specific languages</h1> 
-<p>In previous module units, we have used a number of domain-specific languages as key devices for automating software builds and for facilitating interaction with NoSQL stores. In this module unit, we give a closer look at domain-specific languages from a domain engineering perspective, focussing on model-driven engineering (MDE), and we discuss how to specify the (abstract) syntax of domain-specific modelling languages. In this module unit, we are going to cover:</p> 
-<ul> 
- <li>Introduction to domain-specific languages from a domain engineering perspective, discussing advantages and disadvantages for automating software development.</li> 
- <li>Introduction to agile automation using model-driven engineering, making domain models first-order citizens and providing a range of techniques to automate software development based on models.</li> 
- <li>Specification of metamodels (the abstract syntax of modelling languages) using MOF.</li> 
- <li>Constraining specifications of metamodels using OCL.</li> 
-</ul> 
-<p>The lectures are supplemented with a presentation by Martin Fowler on domain specific languages.</p> 
-<p>The exercises for this week consist of:</p> 
-<ul> 
- <li>a quiz test that you can use to check your understanding on the module unit;</li> 
- <li>a modelling exercise in which you will have to define the abstract syntax of a domain-specific modelling language, namely a feature modelling language;</li> 
- <li>a programming exercise on metamodelling with the Eclipse Modeling Framework (EMF).</li> 
-</ul> 
+<h1> <a id="module-unit-5-textual-concrete-syntax" class="anchor" href="#module-unit-5-textual-concrete-syntax" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Module Unit 5: Textual Concrete Syntax</h1> 
+<p>In this module unit, we are going to discuss how to design the textual syntax of a DSL so that their abstract syntax is automatically represented as an Ecore metamodel and a parser is automatically obtained for the DSL. The advantage of this approach for implementing a parser - actually to generate it automatically - is that DSL programs can be viewed as (domain) models directly, by representing their abstract syntax as models, as discussed in Module Unit 4. This will enable the rapid development of interpreters and of compilers as we will discuss in the next module units. The aim of this module unit is, however, to design and develop the syntactic representation of DSLs using model-driven technology atop the Eclipse Modeling Framework (EMF), introduced in Module Unit 4, by using the Xtext language.</p> 
+<p>Given that Xtext forms an abstraction layer atop compiler techniques, some basic notions from compiler theory are revised in the slides: parsers, interpreters and compilers, context-free grammars, parse trees and abstract syntax trees, language of a context-free grammar. In the last session the bridge between context-free grammars (grammarware) and metamodels (modelware) using the Xtext approach is discussed. This bridge is also illustrated in a talk by Sven Efftinge, the project lead of the Xtext project at itemis.com, on the development of DSLs using Xtext.</p> 
+<p>In the problem class, we are going to discuss how to design context-free grammars using EBNF notation and we are going to illustrate the method that Xtext uses to generate metamodels from context-free grammars by example.</p> 
+<p>In the lab session, Xtext is going to be used to develop the textual concrete syntax of a small DSL by developing a grammar using the Xtext language. The approach to be followed in the worksheet is illustrated in a video tutorial.</p> 
 <h2> <a id="lectures" class="anchor" href="#lectures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lectures</h2> 
 <ul> 
- <li>L4a: Domain-Driven Design and Domain Specific Languages 
+ <li>L5a: Context-free grammars 
   <ul> 
    <li> 
     <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
      🎥
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4a78e1f2-14fc-48c8-9e6a-9dd45ee95e6f">Lecture 4a (video)</a> </li> 
-   <li> 
-    <g-emoji alias="loud_sound" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50a.png" ios-version="6.0">
-     🔊
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=91227800-8bd1-4a27-8949-dc7645653751">Lecture 4a (audio)</a> </li> 
+    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5f7b169b-aa72-49e8-be42-ed0911bfb028">Lecture 5a (video)</a> </li> 
    <li> 
     <g-emoji alias="notebook" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d3.png" ios-version="6.0">
      📓
-    </g-emoji> <a href="./L4a_handouts.pdf">handouts</a> </li> 
+    </g-emoji> <a href="./L5a_handouts.pdf">handouts</a> </li> 
   </ul> </li> 
- <li>L4b: Metamodelling with MOF 
+ <li>L5b: Xtext (to be released after 15 Nov) 
   <ul> 
    <li> 
     <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
      🎥
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dfadb650-91cc-446e-b843-082fd255a1b4">Lecture 4b (video)</a> </li> 
-   <li> 
-    <g-emoji alias="loud_sound" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50a.png" ios-version="6.0">
-     🔊
-    </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=52c65e97-4d7a-4278-97e4-832c356a42b8">Lecture 4b (audio)</a> </li> 
+    </g-emoji> <a href=".TBA.md.html">Lecture 5b (video)</a> </li> 
    <li> 
     <g-emoji alias="notebook" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d3.png" ios-version="6.0">
      📓
-    </g-emoji> <a href="./L4b_handouts.pdf">handouts</a> </li> 
+    </g-emoji> <a href="./L5b_handouts.pdf">handouts</a> </li> 
   </ul> </li> 
 </ul> 
-<h3> <a id="martin-fowler-on-domain-specific-languages" class="anchor" href="#martin-fowler-on-domain-specific-languages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Martin Fowler on Domain Specific Languages</h3> 
-<p>Domain Specific Languages (DSLs) are limited forms of computer language designed for a specific class of problems. In this JAOO conference talk, Martin Fowler introduces a simple example of DSL, bringing out the difference between external and internal DSLs, and talking through the trade-offs in using both forms. The talk is based on Martin's language workbench article on martinfowler.com.</p> 
+<h3> <a id="sven-efftinge-on-introduction-to-dsl-development-with-xtext" class="anchor" href="#sven-efftinge-on-introduction-to-dsl-development-with-xtext" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sven Efftinge on Introduction to DSL development with Xtext</h3> 
 <p>
  <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
   🎥
- </g-emoji> <a href="http://www.infoq.com/presentations/domain-specific-languages">Introduction to Domain Specific Languages</a></p> 
+ </g-emoji> <a href="https://vimeo.com/138873446">Introduction to DSL development with Xtext</a></p> 
+<p>An Introductory session to Eclipse's successful language development environment. Xtext let's you build fully featured programming languages as well as simple domain specific languages (DSL). The first half of this session will give an overview of what Xtext can do for you. During the second half we will develop a DSL live and from scratch!</p> 
+<p>A well designed DSL (domain specific language) can be a huge productivity boost in many scenarios. Being it a special language for describing technical things like services or data structures or something more business oriented such as a DSL for describing complex financial products. But to make development of a custom language worthwile it must be easy to define and maintain such a DSL and of course the users must have assistance through tool support.</p> 
+<p>Xtext provides a set of APIs and DSLs to develop such DSLs easily. It not only gives you a generated parser but supports the full stack of infrastruture that is needed. This also includes editor support for Eclipse, IntelliJ and Web as well as integration with the common build tools Maven, Gradle, and Ant. Xtext is an Eclipse.org project and as such available as open-source. The framework is actively developed, very mature and widely used in industry and research.</p> 
+<p>In this session you will first get a brief introduction into the main concepts of Xtext. After that we will build a DSL from scratch.</p> 
+<p>Sven Efftinge is the project lead of Xtext, a framework for developing programming languages and domain-specific languages. Sven works as development manager for itemis.</p> 
 <h2> <a id="exercises" class="anchor" href="#exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h2> 
 <ul> 
  <li> 
-  <g-emoji alias="black_nib" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2712.png" ios-version="6.0">
-   ✒️
-  </g-emoji> Quiz 
-  <ul> 
-   <li><a href="https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_5572_1&amp;content_id=_1294532_1&amp;mode=cpview">CO4217/CO7217 (campus students)</a></li> 
-   <li><a href="https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_7623_1&amp;content_id=_1294542_1&amp;mode=cpview">CO7517 (DL students)</a></li> 
-   <li>you may need to be logged in Blackboard in your browser for the redirection to work correctly;</li> 
-   <li>feedback is provided as soon as you submit your answers.</li> 
-  </ul> </li> 
- <li> 
   <g-emoji alias="movie_camera" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" ios-version="6.0">
    🎥
-  </g-emoji> <a href="https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9a75435-071b-4b4a-a236-887b58867775">Problem: Metamodelling with MOF</a> 
+  </g-emoji> <a href=".tba.md.html">Problem: design of context-free grammars</a> (to be enabled after Tuesday) 
   <ul> 
    <li> 
     <g-emoji alias="notebook" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d3.png" ios-version="6.0">
      📓
-    </g-emoji> <a href="./sur1_fm.pdf">worksheet</a> </li> 
+    </g-emoji> <a href="./sur2.pdf">worksheet</a> </li> 
    <li> 
     <g-emoji alias="black_nib" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2712.png" ios-version="6.0">
      ✒️
-    </g-emoji> <a href="./surgery1_solution.pdf">solution to exercises</a> (this link will be enabled when solutions are released)</li> 
+    </g-emoji> <a href="./sur2_solution.pdf">solution to exercises</a> (this link will be enabled when solutions are released)</li> 
   </ul> </li> 
  <li> 
   <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
    💻
-  </g-emoji> <a href="./.lab4.emf.md.html">Metamodelling with EMF</a> 
+  </g-emoji> <a href=".TBA.md.html">Textual concrete syntax with Xtext</a> (to be released after 15 Nov) 
   <ul> 
    <li> 
     <g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">
      💻
-    </g-emoji> <a href="./.lab4.emf.md.html">solution to exercises</a> (this link will be enabled when solutions are released)</li> 
+    </g-emoji> <a href=".TbA.md.html">solution to exercises</a> (this link will be enabled when solutions are released)</li> 
   </ul> </li> 
 </ul> 
 <h2> <a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h2> 
 <ul> 
- <li>Marco Brambilla, Jordi Cabot, and Manuel Wimmer. Model-Driven Software Engineering in Practice. Morgan &amp; Claypool Publishers, 1st edition, 2012.</li> 
- <li>Martin Fowler and Rebecca Parsons. Domain-specific languages. Addison-Wesley, Upper Saddle River, NJ, 2011.</li> 
+ <li>Lorenzo Bettini. Implementing Domain-Specific Languages with Xtext and Xtend. <a href="http://readinglists.le.ac.uk/items/6833D3AD-5488-CEA7-BA79-2A89043D5633.html?referrer=%2Flists%2F0B9D5ADC-32C2-3DDC-5F17-D6D96DCC5924.html%23item-6833D3AD-5488-CEA7-BA79-2A89043D5633">online access</a> </li> 
 </ul>
 </body>
 </html>
