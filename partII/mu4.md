@@ -40,7 +40,7 @@ Domain Specific Languages (DSLs) are limited forms of computer language designed
   * [CO7517 (DL students)](https://blackboard.le.ac.uk/webapps/assessment/take/launchAssessment.jsp?course_id=_7623_1&content_id=_1294542_1&mode=cpview)
   * you may need to be logged in Blackboard in your browser for the redirection to work correctly;
   * feedback is provided as soon as you submit your answers.
-* :movie_camera: [Problem: Metamodelling with MOF](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f9a75435-071b-4b4a-a236-887b58867775)
+* :movie_camera: [Problem: Metamodelling with MOF](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1b3c7141-858d-4f38-b5f8-22a667dfaa46)
   * :notebook: [worksheet](./sur1_fm.pdf) 
   * :black_nib: [solution to exercises](./surgery1_solution.pdf) (this link will be enabled when solutions are released)
 * :computer: [Metamodelling with EMF](./lab4.emf.md) 
