@@ -35,9 +35,9 @@ Sven Efftinge is the project lead of Xtext, a framework for developing programmi
 
 ## Exercises
 
-* :movie_camera: [Problem: design of context-free grammars](tba) (to be enabled after Tuesday)
+* :movie_camera: [Problem: design of context-free grammars (explanation and solution)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0df1cbe3-d78b-46dc-8c2e-912c4fb87ab0) 
   * :notebook: [worksheet](./sur2.pdf) 
-  * :black_nib: [solution to exercises](./sur2_solution.pdf) (this link will be enabled when solutions are released)
+  * :black_nib: [solution to exercises](./sur2_solution.pdf) 
 * :computer: [Textual concrete syntax with Xtext](TBA)  (to be released after 15 Nov) 
   * :computer: [solution to exercises](TbA) (this link will be enabled when solutions are released)
 

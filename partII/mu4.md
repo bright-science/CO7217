@@ -42,8 +42,9 @@ Domain Specific Languages (DSLs) are limited forms of computer language designed
   * feedback is provided as soon as you submit your answers.
 * :movie_camera: [Problem: Metamodelling with MOF](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1b3c7141-858d-4f38-b5f8-22a667dfaa46)
   * :notebook: [worksheet](./sur1_fm.pdf) 
-  * :black_nib: [solution to exercises](./surgery1_solution.pdf) (this link will be enabled when solutions are released)
-* :computer: [Metamodelling with EMF](./lab4.emf.md) 
+  * :black_nib: [solution to exercises](./sur1_solution.pdf) and :movie_camera: [their explanation](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=aa3d70ff-c365-4a35-bd46-315c470361c6)
+* :movie_camera: [Metamodelling with EMF (video)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7feeb48c-d67c-49e3-aa2d-876e295fa7c2)
+  * :computer: [Metamodelling with EMF](./lab4.emf.md) 
   * :computer: [solution to exercises](./lab4.emf.solution/) (this link will be enabled when solutions are released)
 
   
