@@ -15,8 +15,8 @@ In the lab session, Xtext is going to be used to develop the textual concrete sy
 * L5a: Context-free grammars 
   * :movie_camera: [Lecture 5a (video)](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5f7b169b-aa72-49e8-be42-ed0911bfb028)
   * :notebook: [handouts](./L5a_handouts.pdf)
-* L5b: Xtext (to be released after 15 Nov)
-  * :movie_camera: [Lecture 5b (video)](TBA) 
+* L5b: Xtext 
+  * :movie_camera: [Lecture 5b](https://leicester.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab8d4d92-7b7a-4541-bb64-bdf148284e5a) 
   * :notebook: [handouts](./L5b_handouts.pdf)
 
 ### Sven Efftinge on Introduction to DSL development with Xtext
